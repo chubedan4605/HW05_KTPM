@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'DejaVu Sans','Noto Sans',sans-serif; background:#FFFFFF; padding:24px; }
+  .canvas { width: 980px; margin: 0 auto; }
+  .title { text-align:center; font-size:22px; font-weight:700; color:#243447; margin-bottom:4px; }
+  .subtitle { text-align:center; font-size:13px; color:#64748B; margin-bottom:20px; }
+  .phase { border:1.5px solid #C7D2E4; border-radius:12px; background:#F8FAFC; padding:14px 18px 16px; margin-bottom:0; }
+  .phase + .arrow { margin: 6px 0; }
+  .phase h2 { font-size:15px; color:#243447; background:#E2E8F0; display:inline-block; padding:3px 12px; border-radius:6px; margin-bottom:10px; letter-spacing:.4px;}
+  .phase h2 .num { color:#4C6EF5; font-weight:800; margin-right:6px; }
+  .row { display:flex; gap:12px; align-items:stretch; }
+  .node { flex:1; background:#EFF6FF; border:1.5px solid #93B4F5; border-radius:8px; padding:9px 12px; }
+  .node b { display:block; font-size:13.5px; color:#1E3A8A; margin-bottom:3px; }
+  .node span { font-size:11.5px; color:#475569; line-height:1.45; display:block; }
+  .node.decision { background:#FFF7ED; border-color:#F0C08A; }
+  .node.decision b { color:#9A3412; }
+  .node.action { background:#F0FDF4; border-color:#9BC59B; }
+  .node.action b { color:#14532D; }
+  .node.alert { background:#FEF2F2; border-color:#E8A5A5; }
+  .node.alert b { color:#7F1D1D; }
+  .arrow { display:flex; justify-content:center; }
+  .arrow svg { display:block; }
+  .looplabel { font-size:11px; color:#64748B; }
+  .badges { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
+  .badge { font-size:10.5px; border-radius:10px; padding:2px 10px; background:#EEF2FF; color:#3730A3; border:1px solid #C7D2FE; }
+  .tradeoff { margin-top:18px; border:1.5px dashed #94A3B8; border-radius:12px; padding:12px 16px; background:#FFFFFF; }
+  .tradeoff h3 { font-size:13px; color:#243447; margin-bottom:8px; }
+  .tradeoff table { width:100%; border-collapse:collapse; font-size:11.5px; color:#334155; }
+  .tradeoff td { padding:5px 8px; border-top:1px solid #E2E8F0; vertical-align:top; line-height:1.45; }
+  .tradeoff td:first-child { font-weight:700; width:130px; color:#1E3A8A; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="title">Continuous Performance Testing — Pipeline phát hiện hồi quy p95</div>
+  <div class="subtitle">Mô hình đề xuất cho EShop: theo dõi commit → quyết định → thực thi → phân tích → chặn hồi quy</div>
+
+  <div class="phase">
+    <h2><span class="num">1</span>THEO DÕI (Watch)</h2>
+    <div class="row">
+      <div class="node"><b>GitHub Webhook</b><span>Sự kiện push / pull_request trên repo EShop (backend, frontend, infra)</span></div>
+      <div class="node"><b>Phân tích thay đổi</b><span>Diff các file: backend/*.js, database.js, Dockerfile, dependency (package.json)</span></div>
+      <div class="node"><b>Chấm điểm rủi ro</b><span>Risk score = trọng số file × lịch sử hồi quy; query mới = rủi ro cao</span></div>
+    </div>
+  </div>
+  <div class="arrow"><svg width="16" height="26"><line x1="8" y1="0" x2="8" y2="18" stroke="#64748B" stroke-width="2"/><polygon points="2,16 14,16 8,26" fill="#64748B"/></svg></div>
+
+  <div class="phase">
+    <h2><span class="num">2</span>QUYẾT ĐỊNH (Decide)</h2>
+    <div class="row">
+      <div class="node decision"><b>Chỉ tài liệu / README</b><span>Bỏ qua — không chạy performance test</span></div>
+      <div class="node decision"><b>Rủi ro thấp (frontend, CSS)</b><span>Chạy smoke test hiệu năng (2 phút, 10 VU E2E)</span></div>
+      <div class="node decision"><b>Rủi ro cao (API, DB, SQL, dependency)</b><span>Chạy full suite: Load + Stress + Spike (kịch bản HW05)</span></div>
+    </div>
+    <div class="badges">
+      <span class="badge">Ngân sách: tối đa 6 full-run/ngày</span>
+      <span class="badge">Hàng đợi: merge queue tuần tự</span>
+      <span class="badge">Cache Docker image + node_modules</span>
+    </div>
+  </div>
+  <div class="arrow"><svg width="16" height="26"><line x1="8" y1="0" x2="8" y2="18" stroke="#64748B" stroke-width="2"/><polygon points="2,16 14,16 8,26" fill="#64748B"/></svg></div>
+
+  <div class="phase">
+    <h2><span class="num">3</span>THỰC THI (Execute)</h2>
+    <div class="row">
+      <div class="node action"><b>Runner chuyên dụng</b><span>Máy ảo GitHub Actions self-hosted, cấu hình cố định (đã pin CPU/RAM) — chuẩn hoá môi trường</span></div>
+      <div class="node action"><b>Deploy SUT isolation</b><span>Docker: backend + SQLite re-seed mỗi lần chạy, dữ liệu CSV như HW05 (users.csv, products.csv)</span></div>
+      <div class="node action"><b>Kịch bản JMeter/k6</b><span>Test plan {StudentID}_{Scenario} tái sử dụng từ repo; monitor tài nguyên (node_exporter) chạy song song</span></div>
+    </div>
+  </div>
+  <div class="arrow"><svg width="16" height="26"><line x1="8" y1="0" x2="8" y2="18" stroke="#64748B" stroke-width="2"/><polygon points="2,16 14,16 8,26" fill="#64748B"/></svg></div>
+
+  <div class="phase">
+    <h2><span class="num">4</span>PHÂN TÍCH (Analyse)</h2>
+    <div class="row">
+      <div class="node"><b>Trích chỉ số p95 / p99 / RPS / err%</b><span>Từ raw .jtl (script analyze_jtl) theo từng endpoint</span></div>
+      <div class="node decision"><b>So với baseline + dải dung sai</b><span>Hồi quy khi p95 &gt; baseline × 1,10 VÀ vượt khoảng tin cậy 95% của 5 lần chạy chuẩn hoá</span></div>
+      <div class="node decision"><b>Chống nhiễu</b><span>Nghi ngờ → chạy lại tối đa 2 lần; kết luận theo đa số (2/3) để giảm false alarm</span></div>
+    </div>
+  </div>
+  <div class="arrow"><svg width="16" height="26"><line x1="8" y1="0" x2="8" y2="18" stroke="#64748B" stroke-width="2"/><polygon points="2,16 14,16 8,26" fill="#64748B"/></svg></div>
+
+  <div class="phase">
+    <h2><span class="num">5</span>PHẢN HỒI &amp; CHẶN (Report &amp; Gate)</h2>
+    <div class="row">
+      <div class="node action"><b>Đạt / tốt hơn baseline</b><span>Green check trên PR; cập nhật perf-baseline.json (commit bot)</span></div>
+      <div class="node alert"><b>Xác nhận hồi quy p95</b><span>Chặn merge (required check) + mở GitHub Issue kèm biểu đồ so sánh + tag tác giả commit</span></div>
+      <div class="node"><b>Dashboard &amp; lịch sử</b><span>Lưu kết quả vào artifact / Grafana; xu hướng p95 theo từng bản release</span></div>
+    </div>
+  </div>
+
+  <div class="tradeoff">
+    <h3>Đánh đổi cần cân nhắc (Trade-offs)</h3>
+    <table>
+      <tr><td>Chi phí CI</td><td>Full suite tốn 20–25 phút runner/lần + máy chuyên dụng chạy 24/7. Giảm bằng tầng quyết định (chỉ ~15% commit chạm backend) và smoke test 2 phút cho phần còn lại.</td></tr>
+      <tr><td>Báo động sai</td><td>Nhiễu từ shared runner, cold cache, dữ liệu khác nhau. Giảm bằng cấu hình pin, dải dung sai 10%, khoảng tin cậy 95% và chính sách chạy lại 2/3 — đổi lại phát hiện hồi quy chậm hơn vài phút.</td></tr>
+      <tr><td>Baseline lỗi thời</td><td>Tuning có chủ đích (WAL, cache) làm baseline cũ thành "quá dễ". Cho phép cập nhật baseline qua PR riêng có review, không tự động sau mỗi lần đạt.</td></tr>
+      <tr><td>Độ trễ phát hiện</td><td>Chỉ phát hiện hồi quy khi có commit; không thay thế chaos/soak định kỳ — vẫn cần soak 15 phút hàng tuần trên nhánh main.</td></tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

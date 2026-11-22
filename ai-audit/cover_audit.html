@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --c-bg: #f3f3f2;
+    --c-accent: #96771c;
+    --c-text: #1c1c19;
+    --c-muted: #797770;
+    --c-mid: #665c3f;
+    --c-surface: #e9e7e3;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--c-bg); }
+  .cover {
+    position: relative;
+    width: 794px; height: 1123px;
+    background: var(--c-bg);
+    font-family: 'Be Vietnam Pro', 'DejaVu Sans', sans-serif;
+    border: none; outline: none; box-shadow: none;
+  }
+  /* Layer 1 — background grid (2% opacity) — chi Layer 1 duoc clip */
+  .layer1 {
+    position: absolute; inset: 0; overflow: hidden; z-index: 1;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(102,92,63,0.05) 0 0.5px, transparent 0.5px 66px),
+      repeating-linear-gradient(90deg, rgba(102,92,63,0.05) 0 0.5px, transparent 0.5px 66px);
+  }
+  /* Layer 2 — duong neo doc dai 6pt */
+  .layer2 { position: absolute; inset: 0; z-index: 2; }
+  .anchor-line { position: absolute; left: 95px; top: 112px; width: 8px; height: 899px; background: var(--c-mid); }
+  /* Layer 3 — noi dung */
+  .layer3 { position: absolute; inset: 0; z-index: 3; }
+  .kicker {
+    position: absolute; left: 143px; top: 168px; width: 370px;
+    font-size: 15px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase;
+    color: var(--c-accent); opacity: 0.75;
+  }
+  .hero {
+    position: absolute; left: 143px; top: 300px; width: 600px;
+    font-size: 56px; line-height: 1.15; font-weight: 800; color: var(--c-text);
+  }
+  .hero2 {
+    position: absolute; left: 143px; top: 436px; width: 600px;
+    font-size: 56px; line-height: 1.15; font-weight: 800; color: var(--c-mid);
+  }
+  .summary {
+    position: absolute; left: 143px; top: 566px; max-width: 470px;
+    font-size: 16.5px; line-height: 1.62; color: var(--c-text); opacity: 0.85;
+  }
+  .meta {
+    position: absolute; left: 143px; top: 812px;
+    font-size: 17px; line-height: 1.75; color: var(--c-text);
+  }
+  .meta b { font-weight: 600; }
+  .meta .muted { color: var(--c-muted); font-size: 15px; }
+  .footer {
+    position: absolute; left: 143px; top: 1010px; width: 610px;
+    font-size: 12.5px; font-weight: 400; letter-spacing: 2.6px; text-transform: uppercase;
+    color: var(--c-muted); opacity: 0.75;
+  }
+  .badge {
+    position: absolute; right: 64px; top: 168px; text-align: right;
+    font-size: 13px; color: var(--c-muted); line-height: 1.7;
+  }
+  .badge b { color: var(--c-accent); font-weight: 600; font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="layer1"></div>
+  <div class="layer2"><div class="anchor-line"></div></div>
+  <div class="layer3">
+    <div class="kicker">Phụ lục bắt buộc · HW05 Performance Testing</div>
+    <div class="badge"><b>G9.2 · G9.3 · G9.4 · G9.6</b><br>AI-first · Human-reviewed</div>
+    <div class="hero">AI Audit Report</div>
+    <div class="hero2">&amp; AI Critique</div>
+    <div class="summary">
+      Nhật ký 6 phiên tương tác AI (GLM/Z.ai): prompt, output, human review
+      10 lỗi thiết kế + 5 misinterpretation + 2 hallucination; kèm AI Critique 276 từ.
+    </div>
+    <div class="meta">
+      <b>Nguyễn Lê Quang Kan · MSSV 23120279</b> — Kiểm thử Phần mềm<br>
+      <span class="muted">Khoa Công nghệ Thông tin · ĐH Khoa học Tự nhiên TP.HCM (HCMUS)</span><br>
+      <span class="muted">22 tháng 11 năm 2026</span>
+    </div>
+    <div class="footer">Mandatory appendix theo mục 9-10 đề bài</div>
+  </div>
+</div>
+</body>
+</html>
