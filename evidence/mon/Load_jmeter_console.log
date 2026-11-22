@@ -1,0 +1,39 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /home/z/my-project/hw05/testplans/21127003_Load_20261122.jmx
+Starting standalone test @ 2026 Nov 22 07:35:47 UTC (1795332947835)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     36 in 00:00:12 =    3.0/s Avg:     2 Min:     1 Max:    24 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+summary +    342 in 00:00:30 =   11.4/s Avg:     1 Min:     0 Max:     5 Err:     0 (0.00%) Active: 18 Started: 18 Finished: 0
+summary =    378 in 00:00:42 =    9.0/s Avg:     1 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +    713 in 00:00:30 =   23.7/s Avg:     1 Min:     0 Max:    11 Err:     0 (0.00%) Active: 31 Started: 31 Finished: 0
+summary =   1091 in 00:01:12 =   15.1/s Avg:     1 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1097 in 00:00:30 =   36.5/s Avg:     0 Min:     0 Max:     5 Err:     0 (0.00%) Active: 43 Started: 43 Finished: 0
+summary =   2188 in 00:01:42 =   21.4/s Avg:     1 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1441 in 00:00:30 =   48.1/s Avg:     0 Min:     0 Max:    10 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =   3629 in 00:02:12 =   27.5/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1479 in 00:00:30 =   49.1/s Avg:     0 Min:     0 Max:     4 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =   5108 in 00:02:42 =   31.5/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1486 in 00:00:30 =   49.7/s Avg:     0 Min:     0 Max:     5 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =   6594 in 00:03:12 =   34.3/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1490 in 00:00:30 =   49.7/s Avg:     0 Min:     0 Max:     7 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =   8084 in 00:03:42 =   36.4/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1472 in 00:00:30 =   49.1/s Avg:     0 Min:     0 Max:     7 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =   9556 in 00:04:12 =   37.9/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1468 in 00:00:30 =   48.9/s Avg:     0 Min:     0 Max:    10 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =  11024 in 00:04:42 =   39.1/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1512 in 00:00:30 =   50.4/s Avg:     0 Min:     0 Max:    11 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =  12536 in 00:05:12 =   40.2/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1453 in 00:00:30 =   48.5/s Avg:     0 Min:     0 Max:     4 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =  13989 in 00:05:42 =   40.9/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1474 in 00:00:30 =   49.1/s Avg:     0 Min:     0 Max:     9 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =  15463 in 00:06:12 =   41.6/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +   1502 in 00:00:30 =   50.1/s Avg:     0 Min:     0 Max:     9 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+summary =  16965 in 00:06:42 =   42.2/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+summary +    888 in 00:00:18 =   49.0/s Avg:     0 Min:     0 Max:     4 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+summary =  17853 in 00:07:00 =   42.5/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Nov 22 07:42:48 UTC (1795333368129)
+... end of run
