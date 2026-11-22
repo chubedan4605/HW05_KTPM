@@ -1,3 +1,5 @@
+6e629a6 | 2026-11-23 03:03 | step 15: replace with real Windows DESKTOP-O38ONUM test results, dxdiag, Task Manager & JMeter GUI screenshots, updated report + PDFs
+940894f | 2026-11-22 23:54 | step 14: update git commit log after publishing GitHub Issues
 a5ef3ad | 2026-11-22 23:54 | step 13: publish 7 GitHub Issues, add issue screenshots and rebuild report PDF
 9baf417 | 2026-11-22 22:50 | step 12: export verified git commit log
 e6c9b0d | 2026-11-22 22:50 | step 11: add final HW05 Performance Testing report (Markdown + PDF)
@@ -12,4 +14,4 @@ ece87a8 | 2026-11-22 22:50 | step 3: add hardware spec, account lockout reset de
 20171b9 | 2026-11-22 22:50 | step 2: add JMeter test plans for Load, Stress, Spike and Soak (23120279)
 80ae578 | 2026-11-22 22:50 | step 1: init HW05 structure, README, CSV data-driven files and automation scripts
 
-Tong so commit: 13 (chua tinh commit cap nhat file log nay)
+Tong so commit: 15 (chua tinh commit cap nhat file log nay)
