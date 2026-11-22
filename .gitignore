@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+_body_*.pdf
+_cover_*.pdf
+_combined_audit.md
+*.zip
