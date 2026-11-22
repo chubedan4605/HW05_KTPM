@@ -1,0 +1,41 @@
+================ BANG CHUNG: ACCOUNT LOCKOUT & RESET (FR-02) ================
+Thoi gian: 2026-11-22 07:28:18 UTC
+
+--- Buoc 1: Dang nhap SAI mat khau lan 1 (perfuser002@eshop.test) ---
+{"error":"Tài khoản đã bị khóa. Vui lòng thử lại sau."}
+HTTP 403
+
+--- Buoc 2: Dang nhap SAI mat khau lan 2 ---
+{"error":"Tài khoản đã bị khóa. Vui lòng thử lại sau."}
+HTTP 403
+
+>>> NHAN XET: SUT tang login_attempts +2 moi lan sai (server.js dong 54: newAttempts = user.login_attempts + 2)
+>>> nen chi sau 2 lan sai da dat nguong 3 => tai khoan bi KHOA 180 giay (theo CODE; dac ta FR-02 yeu cau +1/lan, khoa 30s). DAY LA BUG.
+
+--- Buoc 3: Dang nhap DUNG mat khau => bi tu choi vi tai khoan dang khoa ---
+{"error":"Tài khoản đã bị khóa. Vui lòng thử lại sau."}
+HTTP 403
+
+--- Buoc 4: Kiem tra trang thai DB truoc reset (login_attempts, locked_until) ---
+{
+ "email": "perfuser002@eshop.test",
+ "login_attempts": 4,
+ "locked_until": "2026-11-22T07:30:49.965Z"
+}
+
+--- Buoc 5: RESET lockout (SQL: UPDATE users SET login_attempts=0, locked_until=NULL) ---
+[reset_lockout] Da reset login_attempts=0, locked_until=NULL cho 102 users
+
+--- Buoc 6: Kiem tra DB sau reset ---
+{
+ "email": "perfuser002@eshop.test",
+ "login_attempts": 0,
+ "locked_until": null
+}
+
+--- Buoc 7: Dang nhap DUNG sau khi reset => thanh cong, nhan JWT ---
+{"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6InVzZXIiLCJpYXQiOjE3OTUzMzI0OTh9.M4ZDb2opwp0wD6xWIdefxZHmb7iCvnrvE7a00GTNWVo","user":{"id":4,"name":"Perf User 2","email":"perfuser002@eshop.test","password":"PerfT
+
+>>> Ket luan: thu tuc reset duoc thuc hien giua cac lan chay Stress/Spike de dam bao
+>>> khong user nao bi khoa keo dai. Lenh: node scripts/reset_lockout.js
+>>> Phuong an thay the: restart server (DB tu re-seed, mat du lieu order) hoac cho 180s.

@@ -1,0 +1,12 @@
+================ HARDWARE REPORT — MOI TRUONG THUC NGHIEM HW05 ================
+Thoi gian: 2026-11-22 09:45:12 UTC
+Hostname: c-6b028e74-140d72b5-4fb8bdb612d5
+
+----- CPU -----
+CPU(s):                             2
+Model name:                         Intel(R) Xeon(R) Processor
+Thread(s) per core:                 1
+Core(s) per socket:                 2
+Socket(s):                          1
+
+----- RAM -----
