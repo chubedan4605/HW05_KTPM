@@ -47,7 +47,7 @@ không trùng thành viên khác trong nhóm):
 
 **Bugs / performance issues: 7** — 4 bug đặc tả (lockout +2, khóa 180s, products/:id trả 200+{},
 price string với id chẵn) + 3 perf (full-scan search, journal delete + write mỗi login, rò rỉ
-`userCarts`) — chi tiết + bằng chứng trong `bugs/bug_reports.md`.
+`userCarts`) — đã đăng công khai tại [GitHub Issues (#1–#7)](https://github.com/chubedan4605/HW05_KTPM/issues) kèm ảnh chụp trong `bugs/screenshots/` và chi tiết trong `bugs/bug_reports.md`.
 
 **Demo video:** `【ĐIỀN LINK YOUTUBE (unlisted) SAU KHI QUAY — kịch bản sẵn trong video/】`
 

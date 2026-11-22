@@ -1,10 +1,20 @@
 # BUG REPORTS — HW05 Performance Testing (EShop SUT)
 
-> Các issue dưới đây đã được kiểm chứng trực tiếp (kèm bằng chứng trong bài nộp và đường dẫn
-> code). Đây là nội dung đăng lên **GitHub Issues** của repo bài nộp
-> (https://github.com/chubedan4605/HW05_KTPM/issues); sau khi đăng, chụp màn hình từng issue
-> và đính kèm vào thư mục `bugs/`.
+> Tất cả 7 issue dưới đây đã được kiểm chứng trực tiếp và **đăng công khai trên GitHub Issues**:
+> https://github.com/chubedan4605/HW05_KTPM/issues (kèm ảnh chụp màn hình trong `bugs/screenshots/`).
 > Quy ước tiêu đề: `[Bug]` = sai lệch đặc tả, `[Perf]` = vấn đề hiệu năng.
+
+| # | GitHub Issue | Loại |
+|---|---|---|
+| 1 | [#1 — Bộ đếm đăng nhập sai tăng +2 mỗi lần](https://github.com/chubedan4605/HW05_KTPM/issues/1) | `bug` |
+| 2 | [#2 — Thời gian khóa tài khoản 180s thay vì 30s](https://github.com/chubedan4605/HW05_KTPM/issues/2) | `bug` |
+| 3 | [#3 — GET /api/products/:id không tồn tại trả về HTTP 200 + `{}`](https://github.com/chubedan4605/HW05_KTPM/issues/3) | `bug` |
+| 4 | [#4 — GET /api/products/:id với ID chẵn trả về `price` dạng string](https://github.com/chubedan4605/HW05_KTPM/issues/4) | `bug` |
+| 5 | [#5 — Tìm kiếm sản phẩm full-scan, không phân trang](https://github.com/chubedan4605/HW05_KTPM/issues/5) | `performance` |
+| 6 | [#6 — SQLite journal_mode=delete + UPDATE mỗi lần login](https://github.com/chubedan4605/HW05_KTPM/issues/6) | `performance` |
+| 7 | [#7 — Rò rỉ bộ nhớ `userCarts` (+68,2 MB / 15 phút)](https://github.com/chubedan4605/HW05_KTPM/issues/7) | `performance`, `bug` |
+
+![Danh sách 7 GitHub Issues đã đăng](screenshots/github_issues_list.png)
 
 ---
 
