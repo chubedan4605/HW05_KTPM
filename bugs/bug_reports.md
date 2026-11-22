@@ -109,8 +109,7 @@ EXPLAIN QUERY PLAN SELECT * FROM products WHERE name LIKE '%iPhone%';
 **Đề xuất:** dùng FTS5 (full-text search) hoặc chuẩn hoá tìm kiếm tiền tố `kw%` + index;
 thêm phân trang mặc định (20–50 sản phẩm/trang).
 
-**Số liệu từ Stress test HW05:** p95 search 93 ms ở 480 VU (x2.5 lần so với baseline) —
-chưa nghiêm trọng ở 80 sản phẩm, sẽ tuyến tính xấu đi theo số dòng.
+**Số liệu từ Stress test HW05 (trên `DESKTOP-O38ONUM`):** `p95` search đạt **1.100 ms** (178 lỗi Duration Assertion > 2s ở vùng quá tải 360–480 VU) — tăng gần 183× so với baseline Load (6 ms), và sẽ tiếp tục xấu đi tuyến tính khi tăng số sản phẩm.
 
 ---
 
@@ -122,22 +121,22 @@ chưa nghiêm trọng ở 80 sản phẩm, sẽ tuyến tính xấu đi theo s�
 - `PRAGMA journal_mode` → **delete** (chưa bật WAL)
 - `server.js:47-50`: mỗi login **thành công** vẫn chạy `UPDATE users SET login_attempts = 0...`
   (write DB); checkout `INSERT` orders — ~40% request trong workflow là ghi DB.
-- Kết quả Stress 480 VU: p95 các endpoint chạm SQLite (Login/Search/Detail/Checkout) = **93 ms**,
-  trong khi Add-to-cart (chỉ ghi bộ nhớ) = **50 ms** — chênh gần 2 lần.
+- Kết quả Stress test (60→480 VU): `p95` các endpoint ghi SQLite là Checkout **2.035 ms**, Login **1.791 ms**,
+  trong khi Add-to-cart (chỉ ghi bộ nhớ) chỉ **650 ms** — chênh **~3 lần**.
 
 **Đề xuất:** bật `PRAGMA journal_mode=WAL; PRAGMA synchronous=NORMAL;` khi khởi tạo DB —
 giảm chi phí fsync mỗi transaction; cân nhắc bỏ UPDATE login_attempts khi giá trị đã là 0.
 
 ---
 
-## Issue 7 — [Perf] Rò rỉ bộ nhớ `userCarts` (+68,2 MB / 15 phút ở tải 1.510 req/s)
+## Issue 7 — [Perf] Rò rỉ bộ nhớ `userCarts` (RSS `node.exe` tăng 72,9 → 184,0 MB trong 15 phút Soak)
 
 **Mức độ:** High (Performance / Stability — gây OOM khi chạy dài hạn).
 
-**Bằng chứng (Soak test 15 phút — 180 VU):**
+**Bằng chứng (Soak test 15 phút — 180 VU trên `DESKTOP-O38ONUM`):**
 - `server.js:14`: giỏ hàng được lưu trong biến in-memory `userCarts` và **không được xóa/dọn sau khi checkout**.
-- Trong bài test Soak 15 phút (1.359.236 samples, 271.811 vòng E2E, `evidence/mon/Soak_resources.csv`), RSS của tiến trình `node` tăng đơn điệu từ **205,4 MB → 273,6 MB** (+68,2 MB trong 15 phút ≈ **4,5 MB/phút** ở mức 1.510 req/s, tương ứng ~250 byte/vòng E2E).
-- Ước tính sẽ cạn 4 GB RAM và gây crash OOM sau khoảng **~10 giờ** vận hành liên tục ở mức tải này.
+- Trong bài test Soak 15 phút (418.392 samples, 83.626 vòng E2E, `evidence/mon/Soak_resources.csv`), RSS của tiến trình `node.exe` tăng từ **72,9 MB → 184,0 MB** (+111,1 MB trong suốt phiên chạy 464,84 req/s).
+- Khi vận hành liên tục ở tải cao trong nhiều giờ mà không dọn giỏ hàng sau checkout, tiến trình `node.exe` có nguy cơ phình bộ nhớ và crash OOM.
 
 **Đề xuất:** Xóa mục giỏ hàng (`delete userCarts[userId]` hoặc `userCarts[userId] = []`) ngay sau khi checkout thành công, đồng thời cân nhắc chuyển lưu trữ giỏ hàng sang SQLite/Redis kèm TTL để hỗ trợ scale nhiều process.
 
@@ -149,5 +148,5 @@ giảm chi phí fsync mỗi transaction; cân nhắc bỏ UPDATE login_attempts 
 | `evidence/lockout_demo.txt` | Demo đầy đủ Issue 1 & 2 (2 lần sai → khóa → reset SQL → mở khóa) |
 | `evidence/bug_evidence_products_api.txt` | curl trực tiếp Issue 3 & 4 |
 | `analysis/summary_stress.json` | Số liệu p95 theo endpoint cho Issue 5 & 6 |
-| `evidence/mon/Soak_resources.csv` | Số liệu tăng trưởng RSS đơn điệu cho Issue 7 |
-| `results/stress/23120279_Stress_20261122.jtl.gz` | Raw log đối chiếu |
+| `evidence/mon/Soak_resources.csv` | Số liệu tăng trưởng RSS `node.exe` cho Issue 7 |
+| `results/stress/23120279_Stress_20261122.jtl` | Raw log đối chiếu |

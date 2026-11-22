@@ -93,7 +93,8 @@ def analyze(path, name):
                 "p95": round(pct(bel, 95), 1), "err_pct": round(100 * errs / len(br), 2),
             })
         out["steps"] = steps
-    with open(f"/home/z/my-project/hw05/analysis/summary_{name.lower()}.json", "w") as f:
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    with open(os.path.join(root, "analysis", f"summary_{name.lower()}.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
     # ---- in bang
     print(f"\n===== {name.upper()} — TONG QUAN =====")
@@ -108,8 +109,9 @@ def analyze(path, name):
     return out
 
 if __name__ == "__main__":
-    base = "/home/z/my-project/hw05/results"
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base = os.path.join(root, "results")
     for name in sys.argv[1:]:
-        p = f"{base}/{name.lower()}/23120279_{name}_20261122.jtl"
+        p = os.path.join(base, name.lower(), f"23120279_{name}_20261122.jtl")
         if os.path.exists(p): analyze(p, name)
         else: print("MISSING", p)

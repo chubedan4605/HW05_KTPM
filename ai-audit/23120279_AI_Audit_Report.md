@@ -73,10 +73,11 @@ Content-Type, CSV recycle=false. Sửa trực tiếp trong .jmx; pilot 3 VU/40s 
 > "Phân tích kết quả performance test trong file đính kèm (Load/Stress/Spike/Soak). Chỉ ra p95,
 > error rate, throughput, bottleneck và đề xuất ngưỡng hiệu năng cho API này."
 
-**Output AI:** 5 nhận định + 2 đề xuất ngưỡng — trong đó 4 nhận định sai/misinterpretation và 2
-khuyến nghị hallucination (chi tiết bảng 4.2, 4.3 báo cáo chính: p95 3,9s thực ra là Max; "85 lỗi
-500" thực ra là Duration Assertion trên HTTP 200; "2.860 req/s sức chứa" thực ra là trung bình có
-ramp; "login chậm vì bcrypt" thực ra SUT so sánh plaintext).
+**Output AI:** 5 nhận định + 2 đề xuất ngưỡng — trong đó 5 nhận định sai/misinterpretation và 2
+khuyến nghị hallucination (chi tiết bảng 4.2, 4.3 báo cáo chính: nhầm Max 2,8s thành p95; gọi 613
+lỗi Duration Assertion trên HTTP 200 là "lỗi HTTP 500"; lấy trung bình 455,6 req/s gồm cả ramp làm
+sức chứa tối đa thay vì đỉnh 496,6 req/s; giải thích "login chậm vì bcrypt" trong khi SUT so sánh
+plaintext; bỏ qua xu hướng tăng RSS `node.exe` từ 72,9 → 184,0 MB trong Soak test).
 
 **Prompt lần 2 (gửi 200 dòng .jtl thô):** AI tự sửa 3/4 lỗi — xác nhận nguyên nhân là chất lượng
 dữ liệu đầu vào.

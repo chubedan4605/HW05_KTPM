@@ -2,6 +2,8 @@
 // Chay: node seed_data.js  (backend phai dang chay tai localhost:3000)
 const BASE = "http://localhost:3000";
 const fs = require("fs");
+const path = require("path");
+const dataDir = path.resolve(__dirname, "..", "data");
 
 async function post(path, body, token) {
   const headers = { "Content-Type": "application/json" };
@@ -95,7 +97,7 @@ async function main() {
   const usersCsv = ["email,password"];
   for (let i = 1; i <= N_USERS; i++)
     usersCsv.push(`perfuser${String(i).padStart(3, "0")}@eshop.test,${PASSWORD}`);
-  fs.writeFileSync("/home/z/my-project/hw05/data/users.csv", usersCsv.join("\n") + "\n");
+  fs.writeFileSync(path.join(dataDir, "users.csv"), usersCsv.join("\n") + "\n");
 
   // products.csv: keyword,product_id,product_name,price — lay ket qua dau tien tu server (giong $[0] cua JMeter)
   const prodCsv = ["keyword,product_id,product_name,price"];
@@ -107,7 +109,7 @@ async function main() {
     const first = matches[0];
     prodCsv.push(`${kw},${first.id},${first.name},${first.price}`);
   }
-  fs.writeFileSync("/home/z/my-project/hw05/data/products.csv", prodCsv.join("\n") + "\n");
+  fs.writeFileSync(path.join(dataDir, "products.csv"), prodCsv.join("\n") + "\n");
   console.log("CSV written: users.csv (", N_USERS, "rows ), products.csv (100 rows)");
   console.log("Sample products.csv rows:\n" + prodCsv.slice(1, 5).join("\n"));
 }

@@ -8,12 +8,17 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
-fm.fontManager.addfont('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')
-plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
+font_linux = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+if os.path.exists(font_linux):
+    fm.fontManager.addfont(font_linux)
+    plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
+else:
+    plt.rcParams['font.sans-serif'] = ['Segoe UI', 'DejaVu Sans', 'Arial']
 plt.rcParams['axes.unicode_minus'] = False
 
-A = "/home/z/my-project/hw05/analysis"
-M = "/home/z/my-project/hw05/evidence/mon"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+A = os.path.join(ROOT, "analysis")
+M = os.path.join(ROOT, "evidence", "mon")
 OUT = A
 # Business Cool palette (charts skill)
 C_TEXT = "#243447"; C_ACC = "#4C6EF5"; C_GRAY = "#D1D5DB"; C_RED = "#E03131"; C_GREEN = "#2F9E44"; C_AMBER = "#E8590C"
