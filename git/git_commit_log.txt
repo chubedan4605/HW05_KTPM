@@ -1,0 +1,13 @@
+e6c9b0d | 2026-11-22 22:50 | step 11: add final HW05 Performance Testing report (Markdown + PDF)
+37d8c51 | 2026-11-22 22:50 | step 10: add Task 2 AI Audit Report & Critique (MD+PDF) and Task 3 CI flowchart
+49e9171 | 2026-11-22 22:50 | step 9: add reusable Agent Skill (perf-testing-eshop) and Vietnamese demo video script
+3c1a7f2 | 2026-11-22 22:50 | step 8: add execution screenshots and 7 verified bug/performance reports
+429ed62 | 2026-11-22 22:50 | step 7: add Soak 15-min endurance test results, resource trends and endpoint comparison
+c1be490 | 2026-11-22 22:50 | step 6: add Spike test raw .jtl, HTML dashboard and recovery analysis
+b3c44b0 | 2026-11-22 22:50 | step 5: add Stress test v1+v2 raw .jtl, HTML dashboards and step-load analysis
+f52c954 | 2026-11-22 22:50 | step 4: add Load test raw .jtl, HTML dashboard, monitor logs and chart
+ece87a8 | 2026-11-22 22:50 | step 3: add hardware spec, account lockout reset demo and API bug evidence
+20171b9 | 2026-11-22 22:50 | step 2: add JMeter test plans for Load, Stress, Spike and Soak (23120279)
+80ae578 | 2026-11-22 22:50 | step 1: init HW05 structure, README, CSV data-driven files and automation scripts
+
+Tong so commit: 11 (chua tinh commit cap nhat file log nay)
