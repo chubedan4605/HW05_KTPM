@@ -1,0 +1,1752 @@
+2026-11-22 08:07:20,303 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-22 08:07:20,322 INFO o.a.j.JMeter: Loading user properties from: /home/z/my-project/tools/apache-jmeter-5.6.3/bin/user.properties
+2026-11-22 08:07:20,323 INFO o.a.j.JMeter: Loading system properties from: /home/z/my-project/tools/apache-jmeter-5.6.3/bin/system.properties
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: java.version=21.0.13
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: os.name=Linux
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: os.version=5.10.134-013.15.kangaroo.al8.x86_64
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-22 08:07:20,359 INFO o.a.j.JMeter: Available Processors =2
+2026-11-22 08:07:20,368 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-22 08:07:20,369 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-22 08:07:20,369 INFO o.a.j.JMeter: JMeterHome=/home/z/my-project/tools/apache-jmeter-5.6.3
+2026-11-22 08:07:20,369 INFO o.a.j.JMeter: user.dir  =/home/z/my-project/hw05
+2026-11-22 08:07:20,369 INFO o.a.j.JMeter: PWD       =/home/z/my-project/hw05
+2026-11-22 08:07:20,369 INFO o.a.j.JMeter: IP: 21.0.5.15 Name: c-6b028e74-140d72b5-4fb8bdb612d5 FullName: c-6b028e74-140d72b5-4fb8bdb612d5
+2026-11-22 08:07:20,378 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/z/my-project/hw05/results/spike/html'
+2026-11-22 08:07:20,380 INFO o.a.j.s.FileServer: Default base='/home/z/my-project/hw05'
+2026-11-22 08:07:20,381 INFO o.a.j.s.FileServer: Set new base='/home/z/my-project/hw05/testplans'
+2026-11-22 08:07:20,585 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-22 08:07:20,601 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-22 08:07:20,603 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-22 08:07:20,606 INFO o.a.j.s.SaveService: Loading file: /home/z/my-project/hw05/testplans/21127003_Spike_20261122.jmx
+2026-11-22 08:07:20,680 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:07:20,680 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:07:20,680 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:07:20,680 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:07:20,680 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-22 08:07:20,680 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-22 08:07:20,767 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-11-22 08:07:20,770 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-11-22 08:07:20,770 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /home/z/my-project/hw05/results/spike/21127003_Spike_20261122.jtl
+2026-11-22 08:07:20,770 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/z/my-project/tools/apache-jmeter-5.6.3/bin/reportgenerator.properties
+2026-11-22 08:07:20,771 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-11-22 08:07:20,773 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-11-22 08:07:20,775 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-11-22 08:07:20,776 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-11-22 08:07:20,776 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-11-22 08:07:20,776 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-11-22 08:07:20,776 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-11-22 08:07:20,777 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-11-22 08:07:20,777 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-11-22 08:07:20,777 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,780 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:07:20,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-22 08:07:20,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-11-22 08:07:20,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-11-22 08:07:20,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-22 08:07:20,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-11-22 08:07:20,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-11-22 08:07:20,795 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-22 08:07:20,796 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-22 08:07:20,796 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-22 08:07:20,799 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-22 08:07:20,799 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-22 08:07:20,884 INFO o.a.j.JMeter: Running test (1795334840884)
+2026-11-22 08:07:20,917 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Spike_Baseline_20VU_dur300
+2026-11-22 08:07:20,917 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Spike_Baseline_20VU_dur300.
+2026-11-22 08:07:20,917 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-22 08:07:20,918 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=2 delayedStart=false
+2026-11-22 08:07:20,927 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-22 08:07:20,928 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-22 08:07:20,930 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-22 08:07:20,930 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-22 08:07:20,981 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-1
+2026-11-22 08:07:20,982 INFO o.a.j.s.FileServer: Stored: data/products.csv
+2026-11-22 08:07:20,991 INFO o.a.j.s.FileServer: Stored: data/users.csv
+2026-11-22 08:07:21,028 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-22 08:07:21,028 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Spike_Wave1_total300VU_dur35
+2026-11-22 08:07:21,028 INFO o.a.j.e.StandardJMeterEngine: Starting 280 threads for group Spike_Wave1_total300VU_dur35.
+2026-11-22 08:07:21,028 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-22 08:07:21,028 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=280 ramp-up=3 delayedStart=false
+2026-11-22 08:07:21,076 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-2
+2026-11-22 08:07:21,176 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-3
+2026-11-22 08:07:21,268 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-4
+2026-11-22 08:07:21,289 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-11-22 08:07:21,289 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Spike_Wave2_total300VU_dur35
+2026-11-22 08:07:21,290 INFO o.a.j.e.StandardJMeterEngine: Starting 280 threads for group Spike_Wave2_total300VU_dur35.
+2026-11-22 08:07:21,290 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-22 08:07:21,290 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=280 ramp-up=3 delayedStart=false
+2026-11-22 08:07:21,365 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-5
+2026-11-22 08:07:21,457 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-6
+2026-11-22 08:07:21,475 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = c-6b028e74-140d72b5-4fb8bdb612d5
+2026-11-22 08:07:21,481 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-22 08:07:21,557 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-7
+2026-11-22 08:07:21,567 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2026-11-22 08:07:21,567 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Spike_Wave3_total300VU_dur35
+2026-11-22 08:07:21,567 INFO o.a.j.e.StandardJMeterEngine: Starting 280 threads for group Spike_Wave3_total300VU_dur35.
+2026-11-22 08:07:21,567 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-22 08:07:21,567 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=280 ramp-up=3 delayedStart=false
+2026-11-22 08:07:21,622 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-8
+2026-11-22 08:07:21,722 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-9
+2026-11-22 08:07:21,827 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-10
+2026-11-22 08:07:21,920 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-11
+2026-11-22 08:07:22,021 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-12
+2026-11-22 08:07:22,120 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-13
+2026-11-22 08:07:22,221 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-14
+2026-11-22 08:07:22,322 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-15
+2026-11-22 08:07:22,426 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-16
+2026-11-22 08:07:22,526 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-17
+2026-11-22 08:07:22,631 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-18
+2026-11-22 08:07:22,727 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-19
+2026-11-22 08:07:22,824 INFO o.a.j.t.JMeterThread: Thread started: Spike_Baseline_20VU_dur300 1-20
+2026-11-22 08:07:30,052 INFO o.a.j.r.Summariser: summary +    146 in 00:00:09 =   15.9/s Avg:     1 Min:     0 Max:    30 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2026-11-22 08:07:51,029 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-1
+2026-11-22 08:07:51,040 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-2
+2026-11-22 08:07:51,051 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-3
+2026-11-22 08:07:51,061 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-4
+2026-11-22 08:07:51,073 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-5
+2026-11-22 08:07:51,084 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-6
+2026-11-22 08:07:51,094 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-7
+2026-11-22 08:07:51,105 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-8
+2026-11-22 08:07:51,117 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-9
+2026-11-22 08:07:51,127 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-10
+2026-11-22 08:07:51,139 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-11
+2026-11-22 08:07:51,149 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-12
+2026-11-22 08:07:51,161 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-13
+2026-11-22 08:07:51,171 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-14
+2026-11-22 08:07:51,183 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-15
+2026-11-22 08:07:51,193 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-16
+2026-11-22 08:07:51,204 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-17
+2026-11-22 08:07:51,216 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-18
+2026-11-22 08:07:51,226 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-19
+2026-11-22 08:07:51,237 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-20
+2026-11-22 08:07:51,248 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-21
+2026-11-22 08:07:51,259 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-22
+2026-11-22 08:07:51,270 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-23
+2026-11-22 08:07:51,281 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-24
+2026-11-22 08:07:51,292 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-25
+2026-11-22 08:07:51,303 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-26
+2026-11-22 08:07:51,314 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-27
+2026-11-22 08:07:51,325 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-28
+2026-11-22 08:07:51,337 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-29
+2026-11-22 08:07:51,348 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-30
+2026-11-22 08:07:51,358 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-31
+2026-11-22 08:07:51,369 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-32
+2026-11-22 08:07:51,380 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-33
+2026-11-22 08:07:51,391 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-34
+2026-11-22 08:07:51,402 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-35
+2026-11-22 08:07:51,413 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-36
+2026-11-22 08:07:51,424 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-37
+2026-11-22 08:07:51,435 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-38
+2026-11-22 08:07:51,458 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-40
+2026-11-22 08:07:51,458 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-39
+2026-11-22 08:07:51,469 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-41
+2026-11-22 08:07:51,479 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-42
+2026-11-22 08:07:51,490 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-43
+2026-11-22 08:07:51,501 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-44
+2026-11-22 08:07:51,512 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-45
+2026-11-22 08:07:51,523 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-46
+2026-11-22 08:07:51,534 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-47
+2026-11-22 08:07:51,557 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-48
+2026-11-22 08:07:51,558 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-49
+2026-11-22 08:07:51,568 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-50
+2026-11-22 08:07:51,579 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-51
+2026-11-22 08:07:51,589 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-52
+2026-11-22 08:07:51,600 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-53
+2026-11-22 08:07:51,612 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-54
+2026-11-22 08:07:51,623 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-55
+2026-11-22 08:07:51,657 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-57
+2026-11-22 08:07:51,633 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-56
+2026-11-22 08:07:51,660 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-58
+2026-11-22 08:07:51,666 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-59
+2026-11-22 08:07:51,678 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-60
+2026-11-22 08:07:51,690 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-61
+2026-11-22 08:07:51,700 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-62
+2026-11-22 08:07:51,711 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-63
+2026-11-22 08:07:51,721 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-64
+2026-11-22 08:07:51,732 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-65
+2026-11-22 08:07:51,758 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-67
+2026-11-22 08:07:51,760 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-66
+2026-11-22 08:07:51,766 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-68
+2026-11-22 08:07:51,776 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-69
+2026-11-22 08:07:51,788 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-70
+2026-11-22 08:07:51,798 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-71
+2026-11-22 08:07:51,809 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-72
+2026-11-22 08:07:51,821 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-73
+2026-11-22 08:07:51,857 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-75
+2026-11-22 08:07:51,859 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-76
+2026-11-22 08:07:51,859 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-74
+2026-11-22 08:07:51,864 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-77
+2026-11-22 08:07:51,875 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-78
+2026-11-22 08:07:51,886 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-79
+2026-11-22 08:07:51,898 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-80
+2026-11-22 08:07:51,908 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-81
+2026-11-22 08:07:51,920 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-82
+2026-11-22 08:07:51,930 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-83
+2026-11-22 08:07:51,958 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-84
+2026-11-22 08:07:51,960 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-85
+2026-11-22 08:07:51,963 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-86
+2026-11-22 08:07:51,975 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-87
+2026-11-22 08:07:51,985 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-88
+2026-11-22 08:07:51,996 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-89
+2026-11-22 08:07:52,007 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-90
+2026-11-22 08:07:52,018 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-91
+2026-11-22 08:07:52,029 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-92
+2026-11-22 08:07:52,060 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-94
+2026-11-22 08:07:52,062 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-95
+2026-11-22 08:07:52,061 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-93
+2026-11-22 08:07:52,073 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-96
+2026-11-22 08:07:52,084 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-97
+2026-11-22 08:07:52,096 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-98
+2026-11-22 08:07:52,123 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-99
+2026-11-22 08:07:52,127 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-100
+2026-11-22 08:07:52,128 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-101
+2026-11-22 08:07:52,159 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-103
+2026-11-22 08:07:52,157 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-102
+2026-11-22 08:07:52,161 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-104
+2026-11-22 08:07:52,172 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-105
+2026-11-22 08:07:52,183 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-106
+2026-11-22 08:07:52,194 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-107
+2026-11-22 08:07:52,206 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-108
+2026-11-22 08:07:52,216 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-109
+2026-11-22 08:07:52,228 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-110
+2026-11-22 08:07:52,261 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-112
+2026-11-22 08:07:52,263 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-111
+2026-11-22 08:07:52,265 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-113
+2026-11-22 08:07:52,271 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-114
+2026-11-22 08:07:52,282 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-115
+2026-11-22 08:07:52,294 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-116
+2026-11-22 08:07:52,306 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-117
+2026-11-22 08:07:52,315 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-118
+2026-11-22 08:07:52,327 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-119
+2026-11-22 08:07:52,358 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-121
+2026-11-22 08:07:52,357 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-120
+2026-11-22 08:07:52,359 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-122
+2026-11-22 08:07:52,371 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-123
+2026-11-22 08:07:52,382 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-124
+2026-11-22 08:07:52,393 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-125
+2026-11-22 08:07:52,404 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-126
+2026-11-22 08:07:52,414 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-127
+2026-11-22 08:07:52,429 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-128
+2026-11-22 08:07:52,458 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-129
+2026-11-22 08:07:52,459 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-130
+2026-11-22 08:07:52,460 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-131
+2026-11-22 08:07:52,470 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-132
+2026-11-22 08:07:52,480 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-133
+2026-11-22 08:07:52,491 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-134
+2026-11-22 08:07:52,502 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-135
+2026-11-22 08:07:52,513 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-136
+2026-11-22 08:07:52,524 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-137
+2026-11-22 08:07:52,557 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-138
+2026-11-22 08:07:52,557 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-139
+2026-11-22 08:07:52,558 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-140
+2026-11-22 08:07:52,569 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-141
+2026-11-22 08:07:52,580 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-142
+2026-11-22 08:07:52,590 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-143
+2026-11-22 08:07:52,601 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-144
+2026-11-22 08:07:52,613 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-145
+2026-11-22 08:07:52,623 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-146
+2026-11-22 08:07:52,657 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-147
+2026-11-22 08:07:52,657 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-148
+2026-11-22 08:07:52,662 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-149
+2026-11-22 08:07:52,667 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-150
+2026-11-22 08:07:52,678 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-151
+2026-11-22 08:07:52,690 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-152
+2026-11-22 08:07:52,701 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-153
+2026-11-22 08:07:52,711 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-154
+2026-11-22 08:07:52,722 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-155
+2026-11-22 08:07:52,758 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-157
+2026-11-22 08:07:52,760 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-158
+2026-11-22 08:07:52,761 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-156
+2026-11-22 08:07:52,768 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-159
+2026-11-22 08:07:52,777 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-160
+2026-11-22 08:07:52,789 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-161
+2026-11-22 08:07:52,799 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-162
+2026-11-22 08:07:52,811 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-163
+2026-11-22 08:07:52,822 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-164
+2026-11-22 08:07:52,858 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-165
+2026-11-22 08:07:52,883 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-167
+2026-11-22 08:07:52,883 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-166
+2026-11-22 08:07:52,885 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-168
+2026-11-22 08:07:52,887 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-170
+2026-11-22 08:07:52,894 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-169
+2026-11-22 08:07:52,898 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-171
+2026-11-22 08:07:52,909 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-172
+2026-11-22 08:07:52,920 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-173
+2026-11-22 08:07:52,957 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-174
+2026-11-22 08:07:52,959 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-176
+2026-11-22 08:07:52,957 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-175
+2026-11-22 08:07:52,965 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-177
+2026-11-22 08:07:52,975 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-178
+2026-11-22 08:07:52,986 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-179
+2026-11-22 08:07:52,997 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-180
+2026-11-22 08:07:53,009 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-181
+2026-11-22 08:07:53,020 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-182
+2026-11-22 08:07:53,058 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-184
+2026-11-22 08:07:53,057 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-183
+2026-11-22 08:07:53,058 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-185
+2026-11-22 08:07:53,063 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-186
+2026-11-22 08:07:53,074 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-187
+2026-11-22 08:07:53,085 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-188
+2026-11-22 08:07:53,096 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-189
+2026-11-22 08:07:53,107 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-190
+2026-11-22 08:07:53,119 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-191
+2026-11-22 08:07:53,157 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-193
+2026-11-22 08:07:53,158 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-194
+2026-11-22 08:07:53,159 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-192
+2026-11-22 08:07:53,162 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-195
+2026-11-22 08:07:53,173 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-196
+2026-11-22 08:07:53,184 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-197
+2026-11-22 08:07:53,196 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-198
+2026-11-22 08:07:53,206 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-199
+2026-11-22 08:07:53,217 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-200
+2026-11-22 08:07:53,228 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-201
+2026-11-22 08:07:53,258 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-203
+2026-11-22 08:07:53,258 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-202
+2026-11-22 08:07:53,261 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-204
+2026-11-22 08:07:53,272 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-205
+2026-11-22 08:07:53,283 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-206
+2026-11-22 08:07:53,294 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-207
+2026-11-22 08:07:53,305 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-208
+2026-11-22 08:07:53,318 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-209
+2026-11-22 08:07:53,327 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-210
+2026-11-22 08:07:53,357 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-211
+2026-11-22 08:07:53,358 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-212
+2026-11-22 08:07:53,360 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-213
+2026-11-22 08:07:53,371 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-214
+2026-11-22 08:07:53,383 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-215
+2026-11-22 08:07:53,394 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-216
+2026-11-22 08:07:53,404 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-217
+2026-11-22 08:07:53,415 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-218
+2026-11-22 08:07:53,428 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-219
+2026-11-22 08:07:53,457 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-220
+2026-11-22 08:07:53,458 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-221
+2026-11-22 08:07:53,459 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-222
+2026-11-22 08:07:53,470 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-223
+2026-11-22 08:07:53,482 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-224
+2026-11-22 08:07:53,493 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-225
+2026-11-22 08:07:53,503 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-226
+2026-11-22 08:07:53,514 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-227
+2026-11-22 08:07:53,525 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-228
+2026-11-22 08:07:53,558 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-229
+2026-11-22 08:07:53,559 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-231
+2026-11-22 08:07:53,559 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-230
+2026-11-22 08:07:53,569 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-232
+2026-11-22 08:07:53,599 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-233
+2026-11-22 08:07:53,601 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-234
+2026-11-22 08:07:53,602 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-235
+2026-11-22 08:07:53,613 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-236
+2026-11-22 08:07:53,624 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-237
+2026-11-22 08:07:53,657 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-238
+2026-11-22 08:07:53,658 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-239
+2026-11-22 08:07:53,659 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-240
+2026-11-22 08:07:53,668 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-241
+2026-11-22 08:07:53,679 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-242
+2026-11-22 08:07:53,690 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-243
+2026-11-22 08:07:53,701 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-244
+2026-11-22 08:07:53,712 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-245
+2026-11-22 08:07:53,723 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-246
+2026-11-22 08:07:53,734 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-247
+2026-11-22 08:07:53,758 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-248
+2026-11-22 08:07:53,758 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-249
+2026-11-22 08:07:53,768 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-250
+2026-11-22 08:07:53,778 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-251
+2026-11-22 08:07:53,790 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-252
+2026-11-22 08:07:53,800 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-253
+2026-11-22 08:07:53,812 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-254
+2026-11-22 08:07:53,822 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-255
+2026-11-22 08:07:53,858 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-258
+2026-11-22 08:07:53,859 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-256
+2026-11-22 08:07:53,858 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-257
+2026-11-22 08:07:53,866 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-259
+2026-11-22 08:07:53,878 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-260
+2026-11-22 08:07:53,889 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-261
+2026-11-22 08:07:53,900 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-262
+2026-11-22 08:07:53,910 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-263
+2026-11-22 08:07:53,921 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-264
+2026-11-22 08:07:53,957 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-265
+2026-11-22 08:07:53,959 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-266
+2026-11-22 08:07:53,960 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-267
+2026-11-22 08:07:53,966 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-268
+2026-11-22 08:07:53,976 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-269
+2026-11-22 08:07:53,988 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-270
+2026-11-22 08:07:53,998 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-271
+2026-11-22 08:07:54,010 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-272
+2026-11-22 08:07:54,021 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-273
+2026-11-22 08:07:54,031 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-274
+2026-11-22 08:07:54,058 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-276
+2026-11-22 08:07:54,059 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-275
+2026-11-22 08:07:54,065 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-277
+2026-11-22 08:07:54,075 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-278
+2026-11-22 08:07:54,087 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-279
+2026-11-22 08:07:54,097 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave1_total300VU_dur35 2-280
+2026-11-22 08:08:00,000 INFO o.a.j.r.Summariser: summary +  12903 in 00:00:30 =  430.8/s Avg:   101 Min:     0 Max:  3506 Err:    13 (0.10%) Active: 300 Started: 300 Finished: 0
+2026-11-22 08:08:00,000 INFO o.a.j.r.Summariser: summary =  13049 in 00:00:39 =  333.6/s Avg:   100 Min:     0 Max:  3506 Err:    13 (0.10%)
+2026-11-22 08:08:25,925 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-1
+2026-11-22 08:08:25,965 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-4
+2026-11-22 08:08:25,967 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-31
+2026-11-22 08:08:25,998 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-26
+2026-11-22 08:08:25,999 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-10
+2026-11-22 08:08:26,000 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-22
+2026-11-22 08:08:26,001 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-21
+2026-11-22 08:08:26,004 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-47
+2026-11-22 08:08:26,005 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-12
+2026-11-22 08:08:26,007 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-8
+2026-11-22 08:08:26,008 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-36
+2026-11-22 08:08:26,015 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-20
+2026-11-22 08:08:26,024 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-17
+2026-11-22 08:08:26,061 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-52
+2026-11-22 08:08:26,061 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-2
+2026-11-22 08:08:26,061 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-2
+2026-11-22 08:08:26,062 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-102
+2026-11-22 08:08:26,065 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-49
+2026-11-22 08:08:26,066 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-44
+2026-11-22 08:08:26,067 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-55
+2026-11-22 08:08:26,069 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-144
+2026-11-22 08:08:26,073 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-38
+2026-11-22 08:08:26,076 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-77
+2026-11-22 08:08:26,076 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-30
+2026-11-22 08:08:26,083 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-18
+2026-11-22 08:08:26,083 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-18
+2026-11-22 08:08:26,083 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-35
+2026-11-22 08:08:26,084 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-84
+2026-11-22 08:08:26,084 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-80
+2026-11-22 08:08:26,085 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-101
+2026-11-22 08:08:26,085 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-39
+2026-11-22 08:08:26,086 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-40
+2026-11-22 08:08:26,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-3
+2026-11-22 08:08:26,087 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-3
+2026-11-22 08:08:26,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-29
+2026-11-22 08:08:26,088 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-29
+2026-11-22 08:08:26,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-33
+2026-11-22 08:08:26,088 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-33
+2026-11-22 08:08:26,089 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-61
+2026-11-22 08:08:26,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-25
+2026-11-22 08:08:26,090 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-25
+2026-11-22 08:08:26,091 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-96
+2026-11-22 08:08:26,092 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-64
+2026-11-22 08:08:26,093 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-46
+2026-11-22 08:08:26,093 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-5
+2026-11-22 08:08:26,093 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-5
+2026-11-22 08:08:26,094 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-16
+2026-11-22 08:08:26,094 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-16
+2026-11-22 08:08:26,095 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-56
+2026-11-22 08:08:26,095 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-122
+2026-11-22 08:08:26,097 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-76
+2026-11-22 08:08:26,097 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-50
+2026-11-22 08:08:26,100 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-125
+2026-11-22 08:08:26,102 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-100
+2026-11-22 08:08:26,103 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-105
+2026-11-22 08:08:26,104 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-24
+2026-11-22 08:08:26,104 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-24
+2026-11-22 08:08:26,104 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-149
+2026-11-22 08:08:26,104 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-51
+2026-11-22 08:08:26,105 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-51
+2026-11-22 08:08:26,104 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-34
+2026-11-22 08:08:26,105 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-34
+2026-11-22 08:08:26,105 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-6
+2026-11-22 08:08:26,105 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-6
+2026-11-22 08:08:26,105 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-27
+2026-11-22 08:08:26,105 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-27
+2026-11-22 08:08:26,108 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-194
+2026-11-22 08:08:26,109 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-65
+2026-11-22 08:08:26,109 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-73
+2026-11-22 08:08:26,110 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-86
+2026-11-22 08:08:26,110 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-14
+2026-11-22 08:08:26,111 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-14
+2026-11-22 08:08:26,112 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-82
+2026-11-22 08:08:26,113 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-59
+2026-11-22 08:08:26,113 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-59
+2026-11-22 08:08:26,113 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-41
+2026-11-22 08:08:26,113 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-41
+2026-11-22 08:08:26,115 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-103
+2026-11-22 08:08:26,115 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-166
+2026-11-22 08:08:26,116 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-120
+2026-11-22 08:08:26,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-23
+2026-11-22 08:08:26,116 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-23
+2026-11-22 08:08:26,117 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-74
+2026-11-22 08:08:26,117 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-87
+2026-11-22 08:08:26,118 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-48
+2026-11-22 08:08:26,118 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-48
+2026-11-22 08:08:26,119 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-13
+2026-11-22 08:08:26,119 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-7
+2026-11-22 08:08:26,119 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-13
+2026-11-22 08:08:26,119 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-7
+2026-11-22 08:08:26,120 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-28
+2026-11-22 08:08:26,120 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-28
+2026-11-22 08:08:26,121 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-75
+2026-11-22 08:08:26,121 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-75
+2026-11-22 08:08:26,122 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-45
+2026-11-22 08:08:26,122 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-45
+2026-11-22 08:08:26,122 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-19
+2026-11-22 08:08:26,122 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-67
+2026-11-22 08:08:26,122 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-19
+2026-11-22 08:08:26,122 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-67
+2026-11-22 08:08:26,123 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-98
+2026-11-22 08:08:26,123 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-58
+2026-11-22 08:08:26,123 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-9
+2026-11-22 08:08:26,123 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-9
+2026-11-22 08:08:26,123 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-43
+2026-11-22 08:08:26,123 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-43
+2026-11-22 08:08:26,123 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-58
+2026-11-22 08:08:26,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-71
+2026-11-22 08:08:26,124 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-71
+2026-11-22 08:08:26,125 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-66
+2026-11-22 08:08:26,125 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-66
+2026-11-22 08:08:26,160 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-93
+2026-11-22 08:08:26,160 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-93
+2026-11-22 08:08:26,162 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-95
+2026-11-22 08:08:26,163 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-95
+2026-11-22 08:08:26,164 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-157
+2026-11-22 08:08:26,166 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-107
+2026-11-22 08:08:26,166 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-78
+2026-11-22 08:08:26,167 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-78
+2026-11-22 08:08:26,167 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-151
+2026-11-22 08:08:26,167 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-180
+2026-11-22 08:08:26,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-89
+2026-11-22 08:08:26,168 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-89
+2026-11-22 08:08:26,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-15
+2026-11-22 08:08:26,168 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-15
+2026-11-22 08:08:26,169 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-152
+2026-11-22 08:08:26,169 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-62
+2026-11-22 08:08:26,170 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-62
+2026-11-22 08:08:26,170 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-279
+2026-11-22 08:08:26,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-60
+2026-11-22 08:08:26,170 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-60
+2026-11-22 08:08:26,171 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-54
+2026-11-22 08:08:26,171 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-54
+2026-11-22 08:08:26,172 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-32
+2026-11-22 08:08:26,172 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-32
+2026-11-22 08:08:26,172 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-63
+2026-11-22 08:08:26,172 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-63
+2026-11-22 08:08:26,173 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-171
+2026-11-22 08:08:26,174 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-230
+2026-11-22 08:08:26,174 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-195
+2026-11-22 08:08:26,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-53
+2026-11-22 08:08:26,175 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-53
+2026-11-22 08:08:26,175 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-130
+2026-11-22 08:08:26,175 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-42
+2026-11-22 08:08:26,175 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-42
+2026-11-22 08:08:26,175 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-252
+2026-11-22 08:08:26,176 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-79
+2026-11-22 08:08:26,176 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-79
+2026-11-22 08:08:26,176 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-90
+2026-11-22 08:08:26,177 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-90
+2026-11-22 08:08:26,177 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-136
+2026-11-22 08:08:26,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-37
+2026-11-22 08:08:26,177 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-37
+2026-11-22 08:08:26,177 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-160
+2026-11-22 08:08:26,179 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-11
+2026-11-22 08:08:26,179 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-11
+2026-11-22 08:08:26,186 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-142
+2026-11-22 08:08:26,187 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-121
+2026-11-22 08:08:26,187 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-121
+2026-11-22 08:08:26,188 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-85
+2026-11-22 08:08:26,188 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-85
+2026-11-22 08:08:26,189 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-232
+2026-11-22 08:08:26,190 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-156
+2026-11-22 08:08:26,190 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-92
+2026-11-22 08:08:26,190 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-92
+2026-11-22 08:08:26,191 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-69
+2026-11-22 08:08:26,191 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-69
+2026-11-22 08:08:26,191 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-106
+2026-11-22 08:08:26,191 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-106
+2026-11-22 08:08:26,192 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-271
+2026-11-22 08:08:26,192 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-111
+2026-11-22 08:08:26,192 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-111
+2026-11-22 08:08:26,193 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-88
+2026-11-22 08:08:26,193 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-88
+2026-11-22 08:08:26,193 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-185
+2026-11-22 08:08:26,194 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-173
+2026-11-22 08:08:26,194 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-126
+2026-11-22 08:08:26,194 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-112
+2026-11-22 08:08:26,195 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-112
+2026-11-22 08:08:26,195 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-133
+2026-11-22 08:08:26,196 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-134
+2026-11-22 08:08:26,196 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-204
+2026-11-22 08:08:26,196 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-222
+2026-11-22 08:08:26,197 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-117
+2026-11-22 08:08:26,197 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-117
+2026-11-22 08:08:26,198 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-147
+2026-11-22 08:08:26,202 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-153
+2026-11-22 08:08:26,205 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-236
+2026-11-22 08:08:26,206 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-141
+2026-11-22 08:08:26,206 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-165
+2026-11-22 08:08:26,207 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-115
+2026-11-22 08:08:26,207 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-115
+2026-11-22 08:08:26,208 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-198
+2026-11-22 08:08:26,209 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-70
+2026-11-22 08:08:26,209 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-70
+2026-11-22 08:08:26,209 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-210
+2026-11-22 08:08:26,209 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-57
+2026-11-22 08:08:26,209 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-57
+2026-11-22 08:08:26,209 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-159
+2026-11-22 08:08:26,210 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-116
+2026-11-22 08:08:26,210 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-116
+2026-11-22 08:08:26,210 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-68
+2026-11-22 08:08:26,210 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-68
+2026-11-22 08:08:26,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-97
+2026-11-22 08:08:26,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-124
+2026-11-22 08:08:26,211 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-97
+2026-11-22 08:08:26,211 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-124
+2026-11-22 08:08:26,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-150
+2026-11-22 08:08:26,211 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-150
+2026-11-22 08:08:26,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-104
+2026-11-22 08:08:26,212 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-104
+2026-11-22 08:08:26,212 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-143
+2026-11-22 08:08:26,212 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-143
+2026-11-22 08:08:26,212 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-72
+2026-11-22 08:08:26,212 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-72
+2026-11-22 08:08:26,213 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-162
+2026-11-22 08:08:26,214 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-83
+2026-11-22 08:08:26,214 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-83
+2026-11-22 08:08:26,214 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-158
+2026-11-22 08:08:26,214 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-158
+2026-11-22 08:08:26,215 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-81
+2026-11-22 08:08:26,215 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-81
+2026-11-22 08:08:26,216 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-275
+2026-11-22 08:08:26,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-99
+2026-11-22 08:08:26,217 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-99
+2026-11-22 08:08:26,217 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-206
+2026-11-22 08:08:26,217 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-227
+2026-11-22 08:08:26,218 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-239
+2026-11-22 08:08:26,218 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-276
+2026-11-22 08:08:26,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-110
+2026-11-22 08:08:26,219 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-110
+2026-11-22 08:08:26,219 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-197
+2026-11-22 08:08:26,219 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-192
+2026-11-22 08:08:26,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-132
+2026-11-22 08:08:26,220 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-132
+2026-11-22 08:08:26,221 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-118
+2026-11-22 08:08:26,221 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-118
+2026-11-22 08:08:26,221 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-272
+2026-11-22 08:08:26,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-119
+2026-11-22 08:08:26,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-94
+2026-11-22 08:08:26,222 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-94
+2026-11-22 08:08:26,222 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-119
+2026-11-22 08:08:26,223 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-200
+2026-11-22 08:08:26,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-128
+2026-11-22 08:08:26,224 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-128
+2026-11-22 08:08:26,225 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-209
+2026-11-22 08:08:26,226 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-114
+2026-11-22 08:08:26,226 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-114
+2026-11-22 08:08:26,226 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-170
+2026-11-22 08:08:26,226 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-213
+2026-11-22 08:08:26,226 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-170
+2026-11-22 08:08:26,227 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-182
+2026-11-22 08:08:26,227 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-172
+2026-11-22 08:08:26,227 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-172
+2026-11-22 08:08:26,228 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-178
+2026-11-22 08:08:26,228 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-178
+2026-11-22 08:08:26,228 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-167
+2026-11-22 08:08:26,228 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-167
+2026-11-22 08:08:26,229 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-216
+2026-11-22 08:08:26,257 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-174
+2026-11-22 08:08:26,257 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-174
+2026-11-22 08:08:26,258 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-138
+2026-11-22 08:08:26,258 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-138
+2026-11-22 08:08:26,258 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-137
+2026-11-22 08:08:26,258 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-137
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-177
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-177
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-108
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-108
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-208
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-109
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-208
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-109
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-203
+2026-11-22 08:08:26,259 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-203
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-181
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-181
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-179
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-179
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-113
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-113
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-258
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-168
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-168
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-91
+2026-11-22 08:08:26,260 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-91
+2026-11-22 08:08:26,262 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-240
+2026-11-22 08:08:26,263 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-186
+2026-11-22 08:08:26,263 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-186
+2026-11-22 08:08:26,263 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-190
+2026-11-22 08:08:26,264 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-190
+2026-11-22 08:08:26,265 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-196
+2026-11-22 08:08:26,265 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-196
+2026-11-22 08:08:26,266 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-226
+2026-11-22 08:08:26,266 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-278
+2026-11-22 08:08:26,268 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-235
+2026-11-22 08:08:26,269 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-246
+2026-11-22 08:08:26,270 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-242
+2026-11-22 08:08:26,271 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-154
+2026-11-22 08:08:26,271 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-214
+2026-11-22 08:08:26,271 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-214
+2026-11-22 08:08:26,271 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-154
+2026-11-22 08:08:26,272 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-139
+2026-11-22 08:08:26,272 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-139
+2026-11-22 08:08:26,272 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-189
+2026-11-22 08:08:26,272 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-189
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-251
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-145
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-145
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-184
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-184
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-176
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-176
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-129
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-129
+2026-11-22 08:08:26,273 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-175
+2026-11-22 08:08:26,274 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-175
+2026-11-22 08:08:26,274 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-211
+2026-11-22 08:08:26,274 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-211
+2026-11-22 08:08:26,274 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-248
+2026-11-22 08:08:26,275 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-146
+2026-11-22 08:08:26,275 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-146
+2026-11-22 08:08:26,275 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-135
+2026-11-22 08:08:26,275 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-135
+2026-11-22 08:08:26,276 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-255
+2026-11-22 08:08:26,276 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-155
+2026-11-22 08:08:26,277 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-155
+2026-11-22 08:08:26,277 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-202
+2026-11-22 08:08:26,277 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-202
+2026-11-22 08:08:26,277 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-123
+2026-11-22 08:08:26,277 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-123
+2026-11-22 08:08:26,278 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-183
+2026-11-22 08:08:26,278 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-183
+2026-11-22 08:08:26,280 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-205
+2026-11-22 08:08:26,280 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-188
+2026-11-22 08:08:26,281 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-188
+2026-11-22 08:08:26,281 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-205
+2026-11-22 08:08:26,281 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-223
+2026-11-22 08:08:26,281 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-223
+2026-11-22 08:08:26,282 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-247
+2026-11-22 08:08:26,283 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-247
+2026-11-22 08:08:26,283 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-220
+2026-11-22 08:08:26,283 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-220
+2026-11-22 08:08:26,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-266
+2026-11-22 08:08:26,285 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-266
+2026-11-22 08:08:26,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-244
+2026-11-22 08:08:26,285 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-244
+2026-11-22 08:08:26,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-169
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-221
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-140
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-221
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-140
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-256
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-256
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-268
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-187
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-268
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-187
+2026-11-22 08:08:26,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-169
+2026-11-22 08:08:26,287 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-273
+2026-11-22 08:08:26,287 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-273
+2026-11-22 08:08:26,287 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-148
+2026-11-22 08:08:26,287 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-148
+2026-11-22 08:08:26,288 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-131
+2026-11-22 08:08:26,288 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-131
+2026-11-22 08:08:26,288 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-127
+2026-11-22 08:08:26,288 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-127
+2026-11-22 08:08:26,289 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-277
+2026-11-22 08:08:26,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-224
+2026-11-22 08:08:26,290 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-224
+2026-11-22 08:08:26,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-280
+2026-11-22 08:08:26,290 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-280
+2026-11-22 08:08:26,289 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-277
+2026-11-22 08:08:26,294 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-161
+2026-11-22 08:08:26,294 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-161
+2026-11-22 08:08:26,294 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-163
+2026-11-22 08:08:26,294 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-163
+2026-11-22 08:08:26,294 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-217
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-217
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-261
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-261
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-257
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-257
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-218
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-249
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-249
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-262
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-262
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-250
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-250
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-274
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-274
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-259
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-259
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-234
+2026-11-22 08:08:26,297 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-234
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-254
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-254
+2026-11-22 08:08:26,296 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-265
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-265
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-233
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-233
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-264
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-264
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-231
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-231
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-237
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-237
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-241
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-241
+2026-11-22 08:08:26,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-164
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-164
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-218
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-228
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-201
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-228
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-201
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-270
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-270
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-229
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-229
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-212
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-212
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-215
+2026-11-22 08:08:26,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-215
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-243
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-243
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-219
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-219
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-225
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-225
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-193
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-193
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-269
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-245
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-245
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-269
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-267
+2026-11-22 08:08:26,300 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-267
+2026-11-22 08:08:26,301 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-253
+2026-11-22 08:08:26,301 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-253
+2026-11-22 08:08:26,301 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-263
+2026-11-22 08:08:26,301 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-263
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-207
+2026-11-22 08:08:26,301 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-207
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-260
+2026-11-22 08:08:26,302 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-260
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-191
+2026-11-22 08:08:26,302 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-191
+2026-11-22 08:08:26,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-238
+2026-11-22 08:08:26,302 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-238
+2026-11-22 08:08:26,303 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave1_total300VU_dur35 2-199
+2026-11-22 08:08:26,303 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave1_total300VU_dur35 2-199
+2026-11-22 08:08:30,036 INFO o.a.j.r.Summariser: summary +  72055 in 00:00:30 = 2399.0/s Avg:    41 Min:     0 Max:   174 Err:     0 (0.00%) Active: 20 Started: 300 Finished: 280
+2026-11-22 08:08:30,037 INFO o.a.j.r.Summariser: summary =  85104 in 00:01:09 = 1230.7/s Avg:    50 Min:     0 Max:  3506 Err:    13 (0.02%)
+2026-11-22 08:09:00,018 INFO o.a.j.r.Summariser: summary +    609 in 00:00:30 =   20.3/s Avg:     0 Min:     0 Max:     3 Err:     0 (0.00%) Active: 20 Started: 300 Finished: 280
+2026-11-22 08:09:00,018 INFO o.a.j.r.Summariser: summary =  85713 in 00:01:39 =  864.6/s Avg:    50 Min:     0 Max:  3506 Err:    13 (0.02%)
+2026-11-22 08:09:21,291 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-1
+2026-11-22 08:09:21,301 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-2
+2026-11-22 08:09:21,312 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-3
+2026-11-22 08:09:21,323 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-4
+2026-11-22 08:09:21,334 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-5
+2026-11-22 08:09:21,345 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-6
+2026-11-22 08:09:21,356 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-7
+2026-11-22 08:09:21,367 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-8
+2026-11-22 08:09:21,378 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-9
+2026-11-22 08:09:21,390 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-10
+2026-11-22 08:09:21,401 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-11
+2026-11-22 08:09:21,412 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-12
+2026-11-22 08:09:21,422 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-13
+2026-11-22 08:09:21,433 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-14
+2026-11-22 08:09:21,444 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-15
+2026-11-22 08:09:21,455 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-16
+2026-11-22 08:09:21,466 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-17
+2026-11-22 08:09:21,477 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-18
+2026-11-22 08:09:21,488 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-19
+2026-11-22 08:09:21,499 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-20
+2026-11-22 08:09:21,510 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-21
+2026-11-22 08:09:21,521 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-22
+2026-11-22 08:09:21,532 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-23
+2026-11-22 08:09:21,543 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-24
+2026-11-22 08:09:21,554 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-25
+2026-11-22 08:09:21,566 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-26
+2026-11-22 08:09:21,576 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-27
+2026-11-22 08:09:21,588 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-28
+2026-11-22 08:09:21,599 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-29
+2026-11-22 08:09:21,609 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-30
+2026-11-22 08:09:21,621 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-31
+2026-11-22 08:09:21,632 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-32
+2026-11-22 08:09:21,642 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-33
+2026-11-22 08:09:21,653 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-34
+2026-11-22 08:09:21,664 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-35
+2026-11-22 08:09:21,675 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-36
+2026-11-22 08:09:21,686 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-37
+2026-11-22 08:09:21,697 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-38
+2026-11-22 08:09:21,708 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-39
+2026-11-22 08:09:21,719 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-40
+2026-11-22 08:09:21,730 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-41
+2026-11-22 08:09:21,741 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-42
+2026-11-22 08:09:21,752 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-43
+2026-11-22 08:09:21,763 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-44
+2026-11-22 08:09:21,774 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-45
+2026-11-22 08:09:21,785 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-46
+2026-11-22 08:09:21,796 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-47
+2026-11-22 08:09:21,807 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-48
+2026-11-22 08:09:21,818 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-49
+2026-11-22 08:09:21,829 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-50
+2026-11-22 08:09:21,840 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-51
+2026-11-22 08:09:21,851 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-52
+2026-11-22 08:09:21,862 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-53
+2026-11-22 08:09:21,873 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-54
+2026-11-22 08:09:21,884 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-55
+2026-11-22 08:09:21,895 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-56
+2026-11-22 08:09:21,906 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-57
+2026-11-22 08:09:21,917 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-58
+2026-11-22 08:09:21,928 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-59
+2026-11-22 08:09:21,939 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-60
+2026-11-22 08:09:21,950 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-61
+2026-11-22 08:09:21,961 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-62
+2026-11-22 08:09:21,972 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-63
+2026-11-22 08:09:21,983 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-64
+2026-11-22 08:09:21,994 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-65
+2026-11-22 08:09:22,006 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-66
+2026-11-22 08:09:22,017 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-67
+2026-11-22 08:09:22,027 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-68
+2026-11-22 08:09:22,038 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-69
+2026-11-22 08:09:22,050 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-70
+2026-11-22 08:09:22,060 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-71
+2026-11-22 08:09:22,071 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-72
+2026-11-22 08:09:22,082 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-73
+2026-11-22 08:09:22,094 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-74
+2026-11-22 08:09:22,104 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-75
+2026-11-22 08:09:22,116 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-76
+2026-11-22 08:09:22,126 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-77
+2026-11-22 08:09:22,137 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-78
+2026-11-22 08:09:22,148 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-79
+2026-11-22 08:09:22,159 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-80
+2026-11-22 08:09:22,170 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-81
+2026-11-22 08:09:22,181 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-82
+2026-11-22 08:09:22,192 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-83
+2026-11-22 08:09:22,203 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-84
+2026-11-22 08:09:22,214 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-85
+2026-11-22 08:09:22,225 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-86
+2026-11-22 08:09:22,236 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-87
+2026-11-22 08:09:22,247 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-88
+2026-11-22 08:09:22,258 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-89
+2026-11-22 08:09:22,269 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-90
+2026-11-22 08:09:22,280 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-91
+2026-11-22 08:09:22,291 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-92
+2026-11-22 08:09:22,303 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-93
+2026-11-22 08:09:22,313 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-94
+2026-11-22 08:09:22,325 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-95
+2026-11-22 08:09:22,335 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-96
+2026-11-22 08:09:22,357 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-97
+2026-11-22 08:09:22,358 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-98
+2026-11-22 08:09:22,368 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-99
+2026-11-22 08:09:22,379 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-100
+2026-11-22 08:09:22,390 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-101
+2026-11-22 08:09:22,401 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-102
+2026-11-22 08:09:22,412 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-103
+2026-11-22 08:09:22,423 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-104
+2026-11-22 08:09:22,434 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-105
+2026-11-22 08:09:22,457 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-106
+2026-11-22 08:09:22,458 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-107
+2026-11-22 08:09:22,467 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-108
+2026-11-22 08:09:22,478 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-109
+2026-11-22 08:09:22,489 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-110
+2026-11-22 08:09:22,500 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-111
+2026-11-22 08:09:22,511 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-112
+2026-11-22 08:09:22,522 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-113
+2026-11-22 08:09:22,533 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-114
+2026-11-22 08:09:22,544 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-115
+2026-11-22 08:09:22,555 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-116
+2026-11-22 08:09:22,566 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-117
+2026-11-22 08:09:22,577 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-118
+2026-11-22 08:09:22,588 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-119
+2026-11-22 08:09:22,599 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-120
+2026-11-22 08:09:22,611 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-121
+2026-11-22 08:09:22,622 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-122
+2026-11-22 08:09:22,633 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-123
+2026-11-22 08:09:22,644 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-124
+2026-11-22 08:09:22,657 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-125
+2026-11-22 08:09:22,665 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-126
+2026-11-22 08:09:22,676 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-127
+2026-11-22 08:09:22,687 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-128
+2026-11-22 08:09:22,698 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-129
+2026-11-22 08:09:22,709 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-130
+2026-11-22 08:09:22,720 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-131
+2026-11-22 08:09:22,731 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-132
+2026-11-22 08:09:22,758 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-134
+2026-11-22 08:09:22,742 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-133
+2026-11-22 08:09:22,764 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-135
+2026-11-22 08:09:22,775 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-136
+2026-11-22 08:09:22,786 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-137
+2026-11-22 08:09:22,798 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-138
+2026-11-22 08:09:22,808 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-139
+2026-11-22 08:09:22,819 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-140
+2026-11-22 08:09:22,830 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-141
+2026-11-22 08:09:22,842 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-142
+2026-11-22 08:09:22,857 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-143
+2026-11-22 08:09:22,863 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-144
+2026-11-22 08:09:22,874 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-145
+2026-11-22 08:09:22,885 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-146
+2026-11-22 08:09:22,896 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-147
+2026-11-22 08:09:22,907 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-148
+2026-11-22 08:09:22,918 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-149
+2026-11-22 08:09:22,930 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-150
+2026-11-22 08:09:22,957 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-151
+2026-11-22 08:09:22,957 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-152
+2026-11-22 08:09:22,962 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-153
+2026-11-22 08:09:22,973 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-154
+2026-11-22 08:09:22,984 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-155
+2026-11-22 08:09:22,995 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-156
+2026-11-22 08:09:23,007 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-157
+2026-11-22 08:09:23,017 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-158
+2026-11-22 08:09:23,028 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-159
+2026-11-22 08:09:23,057 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-160
+2026-11-22 08:09:23,057 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-161
+2026-11-22 08:09:23,062 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-162
+2026-11-22 08:09:23,072 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-163
+2026-11-22 08:09:23,083 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-164
+2026-11-22 08:09:23,094 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-165
+2026-11-22 08:09:23,105 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-166
+2026-11-22 08:09:23,116 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-167
+2026-11-22 08:09:23,127 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-168
+2026-11-22 08:09:23,158 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-169
+2026-11-22 08:09:23,159 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-170
+2026-11-22 08:09:23,160 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-171
+2026-11-22 08:09:23,172 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-172
+2026-11-22 08:09:23,182 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-173
+2026-11-22 08:09:23,194 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-174
+2026-11-22 08:09:23,204 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-175
+2026-11-22 08:09:23,216 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-176
+2026-11-22 08:09:23,227 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-177
+2026-11-22 08:09:23,257 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-178
+2026-11-22 08:09:23,257 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-179
+2026-11-22 08:09:23,259 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-180
+2026-11-22 08:09:23,271 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-181
+2026-11-22 08:09:23,281 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-182
+2026-11-22 08:09:23,292 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-183
+2026-11-22 08:09:23,303 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-184
+2026-11-22 08:09:23,314 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-185
+2026-11-22 08:09:23,325 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-186
+2026-11-22 08:09:23,357 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-188
+2026-11-22 08:09:23,357 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-187
+2026-11-22 08:09:23,358 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-189
+2026-11-22 08:09:23,369 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-190
+2026-11-22 08:09:23,380 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-191
+2026-11-22 08:09:23,391 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-192
+2026-11-22 08:09:23,402 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-193
+2026-11-22 08:09:23,414 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-194
+2026-11-22 08:09:23,425 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-195
+2026-11-22 08:09:23,435 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-196
+2026-11-22 08:09:23,457 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-197
+2026-11-22 08:09:23,458 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-198
+2026-11-22 08:09:23,469 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-199
+2026-11-22 08:09:23,480 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-200
+2026-11-22 08:09:23,491 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-201
+2026-11-22 08:09:23,501 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-202
+2026-11-22 08:09:23,512 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-203
+2026-11-22 08:09:23,523 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-204
+2026-11-22 08:09:23,557 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-205
+2026-11-22 08:09:23,557 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-206
+2026-11-22 08:09:23,557 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-207
+2026-11-22 08:09:23,567 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-208
+2026-11-22 08:09:23,578 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-209
+2026-11-22 08:09:23,590 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-210
+2026-11-22 08:09:23,600 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-211
+2026-11-22 08:09:23,611 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-212
+2026-11-22 08:09:23,622 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-213
+2026-11-22 08:09:23,633 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-214
+2026-11-22 08:09:23,657 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-215
+2026-11-22 08:09:23,658 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-216
+2026-11-22 08:09:23,666 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-217
+2026-11-22 08:09:23,677 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-218
+2026-11-22 08:09:23,688 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-219
+2026-11-22 08:09:23,699 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-220
+2026-11-22 08:09:23,710 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-221
+2026-11-22 08:09:23,721 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-222
+2026-11-22 08:09:23,733 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-223
+2026-11-22 08:09:23,758 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-225
+2026-11-22 08:09:23,758 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-224
+2026-11-22 08:09:23,765 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-226
+2026-11-22 08:09:23,776 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-227
+2026-11-22 08:09:23,787 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-228
+2026-11-22 08:09:23,798 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-229
+2026-11-22 08:09:23,809 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-230
+2026-11-22 08:09:23,820 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-231
+2026-11-22 08:09:23,832 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-232
+2026-11-22 08:09:23,857 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-233
+2026-11-22 08:09:23,857 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-234
+2026-11-22 08:09:23,864 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-235
+2026-11-22 08:09:23,875 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-236
+2026-11-22 08:09:23,886 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-237
+2026-11-22 08:09:23,897 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-238
+2026-11-22 08:09:23,908 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-239
+2026-11-22 08:09:23,919 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-240
+2026-11-22 08:09:23,930 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-241
+2026-11-22 08:09:23,957 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-242
+2026-11-22 08:09:23,958 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-243
+2026-11-22 08:09:23,963 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-244
+2026-11-22 08:09:23,974 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-245
+2026-11-22 08:09:23,985 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-246
+2026-11-22 08:09:23,996 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-247
+2026-11-22 08:09:24,007 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-248
+2026-11-22 08:09:24,018 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-249
+2026-11-22 08:09:24,029 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-250
+2026-11-22 08:09:24,040 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-251
+2026-11-22 08:09:24,057 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-252
+2026-11-22 08:09:24,062 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-253
+2026-11-22 08:09:24,073 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-254
+2026-11-22 08:09:24,084 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-255
+2026-11-22 08:09:24,095 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-256
+2026-11-22 08:09:24,106 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-257
+2026-11-22 08:09:24,117 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-258
+2026-11-22 08:09:24,128 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-259
+2026-11-22 08:09:24,157 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-260
+2026-11-22 08:09:24,158 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-261
+2026-11-22 08:09:24,161 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-262
+2026-11-22 08:09:24,172 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-263
+2026-11-22 08:09:24,183 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-264
+2026-11-22 08:09:24,194 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-265
+2026-11-22 08:09:24,205 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-266
+2026-11-22 08:09:24,216 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-267
+2026-11-22 08:09:24,227 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-268
+2026-11-22 08:09:24,257 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-269
+2026-11-22 08:09:24,258 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-270
+2026-11-22 08:09:24,260 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-271
+2026-11-22 08:09:24,271 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-272
+2026-11-22 08:09:24,282 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-273
+2026-11-22 08:09:24,293 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-274
+2026-11-22 08:09:24,304 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-275
+2026-11-22 08:09:24,315 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-276
+2026-11-22 08:09:24,326 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-277
+2026-11-22 08:09:24,357 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-278
+2026-11-22 08:09:24,358 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-279
+2026-11-22 08:09:24,359 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave2_total300VU_dur35 3-280
+2026-11-22 08:09:30,001 INFO o.a.j.r.Summariser: summary +  25170 in 00:00:30 =  839.5/s Avg:    19 Min:     0 Max:   143 Err:     0 (0.00%) Active: 300 Started: 580 Finished: 280
+2026-11-22 08:09:30,001 INFO o.a.j.r.Summariser: summary = 110883 in 00:02:09 =  858.8/s Avg:    43 Min:     0 Max:  3506 Err:    13 (0.01%)
+2026-11-22 08:09:56,187 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-8
+2026-11-22 08:09:56,194 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-52
+2026-11-22 08:09:56,196 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-19
+2026-11-22 08:09:56,205 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-10
+2026-11-22 08:09:56,206 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-31
+2026-11-22 08:09:56,210 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-29
+2026-11-22 08:09:56,213 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-87
+2026-11-22 08:09:56,215 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-40
+2026-11-22 08:09:56,217 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-126
+2026-11-22 08:09:56,218 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-73
+2026-11-22 08:09:56,220 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-58
+2026-11-22 08:09:56,222 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-71
+2026-11-22 08:09:56,222 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-12
+2026-11-22 08:09:56,223 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-18
+2026-11-22 08:09:56,228 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-78
+2026-11-22 08:09:56,228 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-16
+2026-11-22 08:09:56,229 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-85
+2026-11-22 08:09:56,234 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-74
+2026-11-22 08:09:56,261 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-72
+2026-11-22 08:09:56,263 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-115
+2026-11-22 08:09:56,264 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-39
+2026-11-22 08:09:56,267 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-4
+2026-11-22 08:09:56,267 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-43
+2026-11-22 08:09:56,268 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-77
+2026-11-22 08:09:56,269 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-63
+2026-11-22 08:09:56,271 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-107
+2026-11-22 08:09:56,272 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-23
+2026-11-22 08:09:56,272 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-47
+2026-11-22 08:09:56,274 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-2
+2026-11-22 08:09:56,275 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-70
+2026-11-22 08:09:56,276 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-15
+2026-11-22 08:09:56,276 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-1
+2026-11-22 08:09:56,284 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-24
+2026-11-22 08:09:56,285 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-13
+2026-11-22 08:09:56,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-144
+2026-11-22 08:09:56,286 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-53
+2026-11-22 08:09:56,294 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-185
+2026-11-22 08:09:56,295 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-41
+2026-11-22 08:09:56,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-84
+2026-11-22 08:09:56,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-25
+2026-11-22 08:09:56,298 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-25
+2026-11-22 08:09:56,299 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-33
+2026-11-22 08:09:56,301 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-96
+2026-11-22 08:09:56,302 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-165
+2026-11-22 08:09:56,302 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-46
+2026-11-22 08:09:56,302 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-34
+2026-11-22 08:09:56,302 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-34
+2026-11-22 08:09:56,303 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-101
+2026-11-22 08:09:56,303 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-81
+2026-11-22 08:09:56,304 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-79
+2026-11-22 08:09:56,304 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-35
+2026-11-22 08:09:56,304 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-35
+2026-11-22 08:09:56,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-21
+2026-11-22 08:09:56,305 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-21
+2026-11-22 08:09:56,306 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-89
+2026-11-22 08:09:56,306 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-166
+2026-11-22 08:09:56,306 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-95
+2026-11-22 08:09:56,306 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-111
+2026-11-22 08:09:56,307 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-49
+2026-11-22 08:09:56,307 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-37
+2026-11-22 08:09:56,307 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-37
+2026-11-22 08:09:56,308 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-125
+2026-11-22 08:09:56,308 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-55
+2026-11-22 08:09:56,309 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-62
+2026-11-22 08:09:56,310 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-59
+2026-11-22 08:09:56,310 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-65
+2026-11-22 08:09:56,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-17
+2026-11-22 08:09:56,311 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-17
+2026-11-22 08:09:56,311 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-127
+2026-11-22 08:09:56,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-42
+2026-11-22 08:09:56,312 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-42
+2026-11-22 08:09:56,312 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-216
+2026-11-22 08:09:56,313 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-9
+2026-11-22 08:09:56,313 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-9
+2026-11-22 08:09:56,314 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-82
+2026-11-22 08:09:56,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-3
+2026-11-22 08:09:56,314 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-3
+2026-11-22 08:09:56,315 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-186
+2026-11-22 08:09:56,315 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-120
+2026-11-22 08:09:56,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-6
+2026-11-22 08:09:56,315 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-6
+2026-11-22 08:09:56,316 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-14
+2026-11-22 08:09:56,316 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-14
+2026-11-22 08:09:56,316 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-195
+2026-11-22 08:09:56,317 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-91
+2026-11-22 08:09:56,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-28
+2026-11-22 08:09:56,317 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-28
+2026-11-22 08:09:56,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-30
+2026-11-22 08:09:56,317 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-30
+2026-11-22 08:09:56,318 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-26
+2026-11-22 08:09:56,318 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-26
+2026-11-22 08:09:56,322 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-93
+2026-11-22 08:09:56,323 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-140
+2026-11-22 08:09:56,323 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-64
+2026-11-22 08:09:56,323 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-64
+2026-11-22 08:09:56,324 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-100
+2026-11-22 08:09:56,324 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-212
+2026-11-22 08:09:56,324 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-68
+2026-11-22 08:09:56,325 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-68
+2026-11-22 08:09:56,325 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-180
+2026-11-22 08:09:56,325 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-67
+2026-11-22 08:09:56,325 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-67
+2026-11-22 08:09:56,326 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-135
+2026-11-22 08:09:56,326 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-105
+2026-11-22 08:09:56,327 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-206
+2026-11-22 08:09:56,327 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-60
+2026-11-22 08:09:56,327 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-60
+2026-11-22 08:09:56,328 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-199
+2026-11-22 08:09:56,328 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-169
+2026-11-22 08:09:56,328 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-7
+2026-11-22 08:09:56,328 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-7
+2026-11-22 08:09:56,329 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-99
+2026-11-22 08:09:56,329 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-38
+2026-11-22 08:09:56,329 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-38
+2026-11-22 08:09:56,330 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-136
+2026-11-22 08:09:56,330 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-218
+2026-11-22 08:09:56,357 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-156
+2026-11-22 08:09:56,357 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-153
+2026-11-22 08:09:56,358 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-86
+2026-11-22 08:09:56,358 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-86
+2026-11-22 08:09:56,358 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-200
+2026-11-22 08:09:56,358 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-45
+2026-11-22 08:09:56,358 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-45
+2026-11-22 08:09:56,358 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-172
+2026-11-22 08:09:56,358 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-146
+2026-11-22 08:09:56,359 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-203
+2026-11-22 08:09:56,359 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-5
+2026-11-22 08:09:56,360 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-5
+2026-11-22 08:09:56,360 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-157
+2026-11-22 08:09:56,360 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-80
+2026-11-22 08:09:56,360 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-80
+2026-11-22 08:09:56,360 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-27
+2026-11-22 08:09:56,360 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-27
+2026-11-22 08:09:56,361 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-54
+2026-11-22 08:09:56,361 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-54
+2026-11-22 08:09:56,361 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-36
+2026-11-22 08:09:56,361 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-36
+2026-11-22 08:09:56,330 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-162
+2026-11-22 08:09:56,361 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-44
+2026-11-22 08:09:56,361 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-44
+2026-11-22 08:09:56,362 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-113
+2026-11-22 08:09:56,362 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-48
+2026-11-22 08:09:56,363 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-48
+2026-11-22 08:09:56,363 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-97
+2026-11-22 08:09:56,363 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-97
+2026-11-22 08:09:56,365 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-167
+2026-11-22 08:09:56,366 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-177
+2026-11-22 08:09:56,366 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-174
+2026-11-22 08:09:56,367 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-192
+2026-11-22 08:09:56,367 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-50
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-50
+2026-11-22 08:09:56,369 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-161
+2026-11-22 08:09:56,369 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-148
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-22
+2026-11-22 08:09:56,369 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-22
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-88
+2026-11-22 08:09:56,369 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-88
+2026-11-22 08:09:56,369 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-11
+2026-11-22 08:09:56,369 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-11
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-112
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-112
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-155
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-51
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-51
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-20
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-20
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-173
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-187
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-32
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-32
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-75
+2026-11-22 08:09:56,370 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-75
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-69
+2026-11-22 08:09:56,371 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-69
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-56
+2026-11-22 08:09:56,371 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-56
+2026-11-22 08:09:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-66
+2026-11-22 08:09:56,371 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-66
+2026-11-22 08:09:56,371 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-130
+2026-11-22 08:09:56,372 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-142
+2026-11-22 08:09:56,372 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-124
+2026-11-22 08:09:56,372 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-124
+2026-11-22 08:09:56,372 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-151
+2026-11-22 08:09:56,373 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-171
+2026-11-22 08:09:56,375 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-102
+2026-11-22 08:09:56,375 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-102
+2026-11-22 08:09:56,376 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-117
+2026-11-22 08:09:56,376 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-117
+2026-11-22 08:09:56,376 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-164
+2026-11-22 08:09:56,377 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-138
+2026-11-22 08:09:56,377 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-138
+2026-11-22 08:09:56,378 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-123
+2026-11-22 08:09:56,378 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-123
+2026-11-22 08:09:56,379 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-210
+2026-11-22 08:09:56,380 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-179
+2026-11-22 08:09:56,380 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-76
+2026-11-22 08:09:56,380 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-76
+2026-11-22 08:09:56,381 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-188
+2026-11-22 08:09:56,381 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-147
+2026-11-22 08:09:56,381 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-147
+2026-11-22 08:09:56,381 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-178
+2026-11-22 08:09:56,381 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-176
+2026-11-22 08:09:56,382 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-57
+2026-11-22 08:09:56,382 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-57
+2026-11-22 08:09:56,382 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-160
+2026-11-22 08:09:56,382 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-160
+2026-11-22 08:09:56,382 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-143
+2026-11-22 08:09:56,383 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-143
+2026-11-22 08:09:56,383 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-214
+2026-11-22 08:09:56,383 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-209
+2026-11-22 08:09:56,383 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-175
+2026-11-22 08:09:56,384 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-61
+2026-11-22 08:09:56,384 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-61
+2026-11-22 08:09:56,384 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-118
+2026-11-22 08:09:56,384 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-118
+2026-11-22 08:09:56,384 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-194
+2026-11-22 08:09:56,384 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-94
+2026-11-22 08:09:56,384 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-94
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-139
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-139
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-83
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-83
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-191
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-129
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-129
+2026-11-22 08:09:56,385 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-202
+2026-11-22 08:09:56,386 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-90
+2026-11-22 08:09:56,386 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-90
+2026-11-22 08:09:56,387 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-193
+2026-11-22 08:09:56,389 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-211
+2026-11-22 08:09:56,389 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-152
+2026-11-22 08:09:56,389 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-152
+2026-11-22 08:09:56,390 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-134
+2026-11-22 08:09:56,390 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-134
+2026-11-22 08:09:56,390 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-128
+2026-11-22 08:09:56,390 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-128
+2026-11-22 08:09:56,391 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-181
+2026-11-22 08:09:56,391 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-181
+2026-11-22 08:09:56,391 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-198
+2026-11-22 08:09:56,391 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-198
+2026-11-22 08:09:56,391 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-189
+2026-11-22 08:09:56,391 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-189
+2026-11-22 08:09:56,392 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-217
+2026-11-22 08:09:56,392 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-149
+2026-11-22 08:09:56,392 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-149
+2026-11-22 08:09:56,392 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-104
+2026-11-22 08:09:56,392 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-104
+2026-11-22 08:09:56,393 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-158
+2026-11-22 08:09:56,393 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-158
+2026-11-22 08:09:56,393 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-141
+2026-11-22 08:09:56,393 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-141
+2026-11-22 08:09:56,393 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-133
+2026-11-22 08:09:56,393 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-133
+2026-11-22 08:09:56,394 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-204
+2026-11-22 08:09:56,394 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-204
+2026-11-22 08:09:56,394 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-108
+2026-11-22 08:09:56,394 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-108
+2026-11-22 08:09:56,394 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-222
+2026-11-22 08:09:56,395 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-221
+2026-11-22 08:09:56,395 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-92
+2026-11-22 08:09:56,395 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-92
+2026-11-22 08:09:56,395 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-183
+2026-11-22 08:09:56,395 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-183
+2026-11-22 08:09:56,395 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-154
+2026-11-22 08:09:56,395 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-154
+2026-11-22 08:09:56,396 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-98
+2026-11-22 08:09:56,396 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-98
+2026-11-22 08:09:56,396 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-119
+2026-11-22 08:09:56,396 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-119
+2026-11-22 08:09:56,397 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-121
+2026-11-22 08:09:56,397 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-121
+2026-11-22 08:09:56,397 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-170
+2026-11-22 08:09:56,397 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-170
+2026-11-22 08:09:56,397 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-182
+2026-11-22 08:09:56,397 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-182
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-110
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-110
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-116
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-116
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-220
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-145
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-145
+2026-11-22 08:09:56,398 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-227
+2026-11-22 08:09:56,399 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-109
+2026-11-22 08:09:56,399 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-109
+2026-11-22 08:09:56,399 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-208
+2026-11-22 08:09:56,399 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-208
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-223
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-114
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-114
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-103
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-103
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-226
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-132
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-132
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-137
+2026-11-22 08:09:56,400 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-137
+2026-11-22 08:09:56,401 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-106
+2026-11-22 08:09:56,401 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-106
+2026-11-22 08:09:56,401 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-184
+2026-11-22 08:09:56,401 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-184
+2026-11-22 08:09:56,403 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-163
+2026-11-22 08:09:56,403 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-163
+2026-11-22 08:09:56,404 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-197
+2026-11-22 08:09:56,404 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-197
+2026-11-22 08:09:56,406 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-196
+2026-11-22 08:09:56,406 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-196
+2026-11-22 08:09:56,407 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-131
+2026-11-22 08:09:56,407 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-131
+2026-11-22 08:09:56,407 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-201
+2026-11-22 08:09:56,407 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-201
+2026-11-22 08:09:56,408 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-213
+2026-11-22 08:09:56,408 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-213
+2026-11-22 08:09:56,408 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-150
+2026-11-22 08:09:56,409 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-150
+2026-11-22 08:09:56,409 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-122
+2026-11-22 08:09:56,409 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-122
+2026-11-22 08:09:56,409 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-234
+2026-11-22 08:09:56,410 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-205
+2026-11-22 08:09:56,410 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-205
+2026-11-22 08:09:56,410 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-159
+2026-11-22 08:09:56,410 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-159
+2026-11-22 08:09:56,411 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-219
+2026-11-22 08:09:56,411 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-219
+2026-11-22 08:09:56,412 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-224
+2026-11-22 08:09:56,415 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-250
+2026-11-22 08:09:56,416 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-207
+2026-11-22 08:09:56,416 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-207
+2026-11-22 08:09:56,417 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-168
+2026-11-22 08:09:56,417 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-168
+2026-11-22 08:09:56,417 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-190
+2026-11-22 08:09:56,417 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-190
+2026-11-22 08:09:56,421 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-225
+2026-11-22 08:09:56,421 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-228
+2026-11-22 08:09:56,421 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-215
+2026-11-22 08:09:56,422 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-215
+2026-11-22 08:09:56,423 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-232
+2026-11-22 08:09:56,426 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-231
+2026-11-22 08:09:56,430 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-233
+2026-11-22 08:09:56,431 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-256
+2026-11-22 08:09:56,457 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-229
+2026-11-22 08:09:56,457 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-229
+2026-11-22 08:09:56,460 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave2_total300VU_dur35 3-230
+2026-11-22 08:09:56,460 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-230
+2026-11-22 08:09:56,460 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-259
+2026-11-22 08:09:56,460 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-274
+2026-11-22 08:09:56,461 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-246
+2026-11-22 08:09:56,461 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-262
+2026-11-22 08:09:56,462 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-241
+2026-11-22 08:09:56,463 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-244
+2026-11-22 08:09:56,463 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-236
+2026-11-22 08:09:56,464 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-235
+2026-11-22 08:09:56,465 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-238
+2026-11-22 08:09:56,465 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-253
+2026-11-22 08:09:56,465 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-258
+2026-11-22 08:09:56,467 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-237
+2026-11-22 08:09:56,467 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-275
+2026-11-22 08:09:56,469 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-276
+2026-11-22 08:09:56,469 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-245
+2026-11-22 08:09:56,473 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-268
+2026-11-22 08:09:56,484 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-260
+2026-11-22 08:09:56,490 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-242
+2026-11-22 08:09:56,490 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-240
+2026-11-22 08:09:56,491 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-247
+2026-11-22 08:09:56,494 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-239
+2026-11-22 08:09:56,498 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-249
+2026-11-22 08:09:56,500 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-273
+2026-11-22 08:09:56,504 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-248
+2026-11-22 08:09:56,514 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-243
+2026-11-22 08:09:56,516 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-255
+2026-11-22 08:09:56,517 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-272
+2026-11-22 08:09:56,522 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-261
+2026-11-22 08:09:56,523 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-251
+2026-11-22 08:09:56,523 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-252
+2026-11-22 08:09:56,524 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-254
+2026-11-22 08:09:56,525 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-257
+2026-11-22 08:09:56,527 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-263
+2026-11-22 08:09:56,531 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-271
+2026-11-22 08:09:56,534 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-277
+2026-11-22 08:09:56,537 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-270
+2026-11-22 08:09:56,537 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-269
+2026-11-22 08:09:56,540 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-280
+2026-11-22 08:09:56,545 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-267
+2026-11-22 08:09:56,546 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-279
+2026-11-22 08:09:56,546 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-266
+2026-11-22 08:09:56,553 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-264
+2026-11-22 08:09:56,557 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-265
+2026-11-22 08:09:56,562 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave2_total300VU_dur35 3-278
+2026-11-22 08:10:00,097 INFO o.a.j.r.Summariser: summary +  91573 in 00:00:30 = 3042.8/s Avg:    20 Min:     0 Max:   132 Err:     0 (0.00%) Active: 20 Started: 580 Finished: 560
+2026-11-22 08:10:00,097 INFO o.a.j.r.Summariser: summary = 202456 in 00:02:39 = 1271.6/s Avg:    32 Min:     0 Max:  3506 Err:    13 (0.01%)
+2026-11-22 08:10:30,055 INFO o.a.j.r.Summariser: summary +    594 in 00:00:30 =   19.8/s Avg:     0 Min:     0 Max:     4 Err:     0 (0.00%) Active: 20 Started: 580 Finished: 560
+2026-11-22 08:10:30,056 INFO o.a.j.r.Summariser: summary = 203050 in 00:03:09 = 1073.4/s Avg:    32 Min:     0 Max:  3506 Err:    13 (0.01%)
+2026-11-22 08:10:51,567 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-1
+2026-11-22 08:10:51,578 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-2
+2026-11-22 08:10:51,589 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-3
+2026-11-22 08:10:51,600 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-4
+2026-11-22 08:10:51,611 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-5
+2026-11-22 08:10:51,622 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-6
+2026-11-22 08:10:51,633 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-7
+2026-11-22 08:10:51,644 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-8
+2026-11-22 08:10:51,655 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-9
+2026-11-22 08:10:51,666 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-10
+2026-11-22 08:10:51,677 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-11
+2026-11-22 08:10:51,688 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-12
+2026-11-22 08:10:51,699 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-13
+2026-11-22 08:10:51,710 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-14
+2026-11-22 08:10:51,721 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-15
+2026-11-22 08:10:51,732 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-16
+2026-11-22 08:10:51,743 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-17
+2026-11-22 08:10:51,754 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-18
+2026-11-22 08:10:51,765 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-19
+2026-11-22 08:10:51,776 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-20
+2026-11-22 08:10:51,787 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-21
+2026-11-22 08:10:51,798 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-22
+2026-11-22 08:10:51,809 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-23
+2026-11-22 08:10:51,820 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-24
+2026-11-22 08:10:51,831 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-25
+2026-11-22 08:10:51,843 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-26
+2026-11-22 08:10:51,853 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-27
+2026-11-22 08:10:51,865 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-28
+2026-11-22 08:10:51,875 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-29
+2026-11-22 08:10:51,886 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-30
+2026-11-22 08:10:51,897 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-31
+2026-11-22 08:10:51,908 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-32
+2026-11-22 08:10:51,919 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-33
+2026-11-22 08:10:51,932 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-34
+2026-11-22 08:10:51,941 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-35
+2026-11-22 08:10:51,952 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-36
+2026-11-22 08:10:51,963 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-37
+2026-11-22 08:10:51,974 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-38
+2026-11-22 08:10:51,985 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-39
+2026-11-22 08:10:51,996 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-40
+2026-11-22 08:10:52,007 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-41
+2026-11-22 08:10:52,018 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-42
+2026-11-22 08:10:52,029 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-43
+2026-11-22 08:10:52,040 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-44
+2026-11-22 08:10:52,051 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-45
+2026-11-22 08:10:52,062 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-46
+2026-11-22 08:10:52,073 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-47
+2026-11-22 08:10:52,084 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-48
+2026-11-22 08:10:52,095 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-49
+2026-11-22 08:10:52,106 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-50
+2026-11-22 08:10:52,117 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-51
+2026-11-22 08:10:52,128 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-52
+2026-11-22 08:10:52,139 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-53
+2026-11-22 08:10:52,150 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-54
+2026-11-22 08:10:52,161 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-55
+2026-11-22 08:10:52,172 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-56
+2026-11-22 08:10:52,183 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-57
+2026-11-22 08:10:52,194 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-58
+2026-11-22 08:10:52,205 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-59
+2026-11-22 08:10:52,216 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-60
+2026-11-22 08:10:52,227 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-61
+2026-11-22 08:10:52,238 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-62
+2026-11-22 08:10:52,249 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-63
+2026-11-22 08:10:52,260 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-64
+2026-11-22 08:10:52,271 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-65
+2026-11-22 08:10:52,282 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-66
+2026-11-22 08:10:52,293 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-67
+2026-11-22 08:10:52,304 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-68
+2026-11-22 08:10:52,315 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-69
+2026-11-22 08:10:52,326 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-70
+2026-11-22 08:10:52,337 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-71
+2026-11-22 08:10:52,348 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-72
+2026-11-22 08:10:52,359 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-73
+2026-11-22 08:10:52,370 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-74
+2026-11-22 08:10:52,381 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-75
+2026-11-22 08:10:52,392 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-76
+2026-11-22 08:10:52,403 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-77
+2026-11-22 08:10:52,414 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-78
+2026-11-22 08:10:52,425 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-79
+2026-11-22 08:10:52,436 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-80
+2026-11-22 08:10:52,447 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-81
+2026-11-22 08:10:52,458 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-82
+2026-11-22 08:10:52,469 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-83
+2026-11-22 08:10:52,481 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-84
+2026-11-22 08:10:52,491 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-85
+2026-11-22 08:10:52,502 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-86
+2026-11-22 08:10:52,513 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-87
+2026-11-22 08:10:52,524 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-88
+2026-11-22 08:10:52,535 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-89
+2026-11-22 08:10:52,546 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-90
+2026-11-22 08:10:52,573 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-92
+2026-11-22 08:10:52,574 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-91
+2026-11-22 08:10:52,579 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-93
+2026-11-22 08:10:52,590 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-94
+2026-11-22 08:10:52,601 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-95
+2026-11-22 08:10:52,612 INFO o.a.j.t.JMeterThread: Thread started: Spike_Wave3_total300VU_dur35 4-96
+2026-11-22 08:11:00,000 INFO o.a.j.r.Summariser: summary +  13323 in 00:00:30 =  444.9/s Avg:     0 Min:     0 Max:    18 Err:     0 (0.00%) Active: 116 Started: 676 Finished: 560
+2026-11-22 08:11:00,000 INFO o.a.j.r.Summariser: summary = 216373 in 00:03:39 =  987.5/s Avg:    30 Min:     0 Max:  3506 Err:    13 (0.01%)
+2026-11-22 08:11:26,442 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-39
+2026-11-22 08:11:26,454 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-14
+2026-11-22 08:11:26,470 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-63
+2026-11-22 08:11:26,473 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-8
+2026-11-22 08:11:26,474 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-58
+2026-11-22 08:11:26,478 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-34
+2026-11-22 08:11:26,479 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-7
+2026-11-22 08:11:26,481 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-84
+2026-11-22 08:11:26,495 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-9
+2026-11-22 08:11:26,496 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-37
+2026-11-22 08:11:26,498 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-38
+2026-11-22 08:11:26,498 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-33
+2026-11-22 08:11:26,500 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-20
+2026-11-22 08:11:26,503 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-71
+2026-11-22 08:11:26,505 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-3
+2026-11-22 08:11:26,507 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-80
+2026-11-22 08:11:26,508 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-55
+2026-11-22 08:11:26,511 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-22
+2026-11-22 08:11:26,513 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-5
+2026-11-22 08:11:26,513 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-10
+2026-11-22 08:11:26,514 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-81
+2026-11-22 08:11:26,515 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-13
+2026-11-22 08:11:26,516 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-75
+2026-11-22 08:11:26,519 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-12
+2026-11-22 08:11:26,521 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-60
+2026-11-22 08:11:26,523 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-82
+2026-11-22 08:11:26,524 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-67
+2026-11-22 08:11:26,529 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-29
+2026-11-22 08:11:26,529 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-23
+2026-11-22 08:11:26,531 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-90
+2026-11-22 08:11:26,532 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-15
+2026-11-22 08:11:26,532 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-27
+2026-11-22 08:11:26,533 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-56
+2026-11-22 08:11:26,535 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-18
+2026-11-22 08:11:26,535 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-19
+2026-11-22 08:11:26,536 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-51
+2026-11-22 08:11:26,537 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-24
+2026-11-22 08:11:26,538 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-44
+2026-11-22 08:11:26,538 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-4
+2026-11-22 08:11:26,539 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-35
+2026-11-22 08:11:26,540 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-11
+2026-11-22 08:11:26,542 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-17
+2026-11-22 08:11:26,543 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-16
+2026-11-22 08:11:26,545 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-83
+2026-11-22 08:11:26,545 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-25
+2026-11-22 08:11:26,546 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-74
+2026-11-22 08:11:26,546 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-53
+2026-11-22 08:11:26,548 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-49
+2026-11-22 08:11:26,549 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-91
+2026-11-22 08:11:26,549 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-45
+2026-11-22 08:11:26,550 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-46
+2026-11-22 08:11:26,550 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-59
+2026-11-22 08:11:26,551 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-86
+2026-11-22 08:11:26,552 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-77
+2026-11-22 08:11:26,552 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-2
+2026-11-22 08:11:26,552 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-65
+2026-11-22 08:11:26,558 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-57
+2026-11-22 08:11:26,559 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-68
+2026-11-22 08:11:26,560 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-1
+2026-11-22 08:11:26,560 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-62
+2026-11-22 08:11:26,561 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-21
+2026-11-22 08:11:26,561 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-48
+2026-11-22 08:11:26,563 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-26
+2026-11-22 08:11:26,563 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-93
+2026-11-22 08:11:26,564 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-61
+2026-11-22 08:11:26,564 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-6
+2026-11-22 08:11:26,565 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-43
+2026-11-22 08:11:26,565 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-52
+2026-11-22 08:11:26,566 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-36
+2026-11-22 08:11:26,566 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-69
+2026-11-22 08:11:26,567 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-92
+2026-11-22 08:11:26,567 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-31
+2026-11-22 08:11:26,568 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-32
+2026-11-22 08:11:26,568 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-50
+2026-11-22 08:11:26,569 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-70
+2026-11-22 08:11:26,569 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-40
+2026-11-22 08:11:26,570 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-41
+2026-11-22 08:11:26,570 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-73
+2026-11-22 08:11:26,570 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-66
+2026-11-22 08:11:26,571 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-78
+2026-11-22 08:11:26,572 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-72
+2026-11-22 08:11:26,573 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-28
+2026-11-22 08:11:26,573 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-64
+2026-11-22 08:11:26,574 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-42
+2026-11-22 08:11:26,574 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-30
+2026-11-22 08:11:26,575 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-47
+2026-11-22 08:11:26,581 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-88
+2026-11-22 08:11:26,583 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-79
+2026-11-22 08:11:26,583 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Wave3_total300VU_dur35 4-54
+2026-11-22 08:11:26,583 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-54
+2026-11-22 08:11:26,589 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-76
+2026-11-22 08:11:26,590 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-87
+2026-11-22 08:11:26,596 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-85
+2026-11-22 08:11:26,598 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-96
+2026-11-22 08:11:26,618 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-95
+2026-11-22 08:11:26,623 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-94
+2026-11-22 08:11:26,628 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Wave3_total300VU_dur35 4-89
+2026-11-22 08:11:30,000 INFO o.a.j.r.Summariser: summary +  43741 in 00:00:30 = 1458.0/s Avg:     0 Min:     0 Max:    21 Err:     0 (0.00%) Active: 20 Started: 676 Finished: 656
+2026-11-22 08:11:30,000 INFO o.a.j.r.Summariser: summary = 260114 in 00:04:09 = 1044.1/s Avg:    25 Min:     0 Max:  3506 Err:    13 (0.00%)
+2026-11-22 08:12:00,011 INFO o.a.j.r.Summariser: summary +    580 in 00:00:30 =   19.3/s Avg:     0 Min:     0 Max:     3 Err:     0 (0.00%) Active: 20 Started: 676 Finished: 656
+2026-11-22 08:12:00,011 INFO o.a.j.r.Summariser: summary = 260694 in 00:04:39 =  934.0/s Avg:    25 Min:     0 Max:  3506 Err:    13 (0.00%)
+2026-11-22 08:12:19,570 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-19
+2026-11-22 08:12:19,668 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-15
+2026-11-22 08:12:19,774 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-4
+2026-11-22 08:12:19,821 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-3
+2026-11-22 08:12:19,857 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-13
+2026-11-22 08:12:19,926 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-8
+2026-11-22 08:12:19,955 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-10
+2026-11-22 08:12:19,962 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-6
+2026-11-22 08:12:20,187 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-14
+2026-11-22 08:12:20,294 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-17
+2026-11-22 08:12:20,396 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-1
+2026-11-22 08:12:20,399 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-2
+2026-11-22 08:12:20,471 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-16
+2026-11-22 08:12:20,480 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-11
+2026-11-22 08:12:20,524 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-20
+2026-11-22 08:12:20,619 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-5
+2026-11-22 08:12:20,790 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-7
+2026-11-22 08:12:20,829 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-18
+2026-11-22 08:12:20,879 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-9
+2026-11-22 08:12:20,999 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike_Baseline_20VU_dur300 1-12
+2026-11-22 08:12:20,999 INFO o.a.j.t.JMeterThread: Thread finished: Spike_Baseline_20VU_dur300 1-12
+2026-11-22 08:12:21,000 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2026-11-22 08:12:21,000 INFO o.a.j.r.ResultCollector: Shutdown hook ended

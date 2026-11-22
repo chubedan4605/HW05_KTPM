@@ -1,0 +1,29 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /home/z/my-project/hw05/testplans/21127003_Spike_20261122.jmx
+Starting standalone test @ 2026 Nov 22 08:07:20 UTC (1795334840785)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+[2.137s][warning][os,thread] Failed to start thread "Unknown thread" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.
+[2.137s][warning][os,thread] Failed to start the native thread for java.lang.Thread "Spike_Wave3_total300VU_dur35 4-97"
+summary +    146 in 00:00:09 =   15.9/s Avg:     1 Min:     0 Max:    30 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+summary +  12903 in 00:00:30 =  430.8/s Avg:   101 Min:     0 Max:  3506 Err:    13 (0.10%) Active: 300 Started: 300 Finished: 0
+summary =  13049 in 00:00:39 =  333.6/s Avg:   100 Min:     0 Max:  3506 Err:    13 (0.10%)
+summary +  72055 in 00:00:30 = 2399.0/s Avg:    41 Min:     0 Max:   174 Err:     0 (0.00%) Active: 20 Started: 300 Finished: 280
+summary =  85104 in 00:01:09 = 1230.7/s Avg:    50 Min:     0 Max:  3506 Err:    13 (0.02%)
+summary +    609 in 00:00:30 =   20.3/s Avg:     0 Min:     0 Max:     3 Err:     0 (0.00%) Active: 20 Started: 300 Finished: 280
+summary =  85713 in 00:01:39 =  864.6/s Avg:    50 Min:     0 Max:  3506 Err:    13 (0.02%)
+summary +  25170 in 00:00:30 =  839.5/s Avg:    19 Min:     0 Max:   143 Err:     0 (0.00%) Active: 300 Started: 580 Finished: 280
+summary = 110883 in 00:02:09 =  858.8/s Avg:    43 Min:     0 Max:  3506 Err:    13 (0.01%)
+summary +  91573 in 00:00:30 = 3042.8/s Avg:    20 Min:     0 Max:   132 Err:     0 (0.00%) Active: 20 Started: 580 Finished: 560
+summary = 202456 in 00:02:39 = 1271.6/s Avg:    32 Min:     0 Max:  3506 Err:    13 (0.01%)
+summary +    594 in 00:00:30 =   19.8/s Avg:     0 Min:     0 Max:     4 Err:     0 (0.00%) Active: 20 Started: 580 Finished: 560
+summary = 203050 in 00:03:09 = 1073.4/s Avg:    32 Min:     0 Max:  3506 Err:    13 (0.01%)
+summary +  13323 in 00:00:30 =  444.9/s Avg:     0 Min:     0 Max:    18 Err:     0 (0.00%) Active: 116 Started: 676 Finished: 560
+summary = 216373 in 00:03:39 =  987.5/s Avg:    30 Min:     0 Max:  3506 Err:    13 (0.01%)
+summary +  43741 in 00:00:30 = 1458.0/s Avg:     0 Min:     0 Max:    21 Err:     0 (0.00%) Active: 20 Started: 676 Finished: 656
+summary = 260114 in 00:04:09 = 1044.1/s Avg:    25 Min:     0 Max:  3506 Err:    13 (0.00%)
+summary +    580 in 00:00:30 =   19.3/s Avg:     0 Min:     0 Max:     3 Err:     0 (0.00%) Active: 20 Started: 676 Finished: 656
+summary = 260694 in 00:04:39 =  934.0/s Avg:    25 Min:     0 Max:  3506 Err:    13 (0.00%)
