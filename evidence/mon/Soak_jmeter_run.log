@@ -1,0 +1,552 @@
+2026-11-22 08:13:40,630 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-22 08:13:40,669 INFO o.a.j.JMeter: Loading user properties from: /home/z/my-project/tools/apache-jmeter-5.6.3/bin/user.properties
+2026-11-22 08:13:40,669 INFO o.a.j.JMeter: Loading system properties from: /home/z/my-project/tools/apache-jmeter-5.6.3/bin/system.properties
+2026-11-22 08:13:40,678 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-22 08:13:40,678 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-22 08:13:40,678 INFO o.a.j.JMeter: java.version=21.0.13
+2026-11-22 08:13:40,678 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-11-22 08:13:40,678 INFO o.a.j.JMeter: os.name=Linux
+2026-11-22 08:13:40,678 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-22 08:13:40,678 INFO o.a.j.JMeter: os.version=5.10.134-013.15.kangaroo.al8.x86_64
+2026-11-22 08:13:40,679 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-22 08:13:40,679 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-22 08:13:40,679 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-22 08:13:40,679 INFO o.a.j.JMeter: Available Processors =2
+2026-11-22 08:13:40,685 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-22 08:13:40,685 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-22 08:13:40,685 INFO o.a.j.JMeter: JMeterHome=/home/z/my-project/tools/apache-jmeter-5.6.3
+2026-11-22 08:13:40,685 INFO o.a.j.JMeter: user.dir  =/home/z/my-project/hw05
+2026-11-22 08:13:40,685 INFO o.a.j.JMeter: PWD       =/home/z/my-project/hw05
+2026-11-22 08:13:40,686 INFO o.a.j.JMeter: IP: 21.0.5.15 Name: c-6b028e74-140d72b5-4fb8bdb612d5 FullName: c-6b028e74-140d72b5-4fb8bdb612d5
+2026-11-22 08:13:40,696 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/z/my-project/hw05/results/soak/html'
+2026-11-22 08:13:40,702 INFO o.a.j.s.FileServer: Default base='/home/z/my-project/hw05'
+2026-11-22 08:13:40,703 INFO o.a.j.s.FileServer: Set new base='/home/z/my-project/hw05/testplans'
+2026-11-22 08:13:40,986 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-22 08:13:41,002 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-22 08:13:41,005 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-22 08:13:41,007 INFO o.a.j.s.SaveService: Loading file: /home/z/my-project/hw05/testplans/21127003_Soak_20261122.jmx
+2026-11-22 08:13:41,078 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:13:41,078 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:13:41,078 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:13:41,078 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-22 08:13:41,078 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-22 08:13:41,078 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-22 08:13:41,111 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-11-22 08:13:41,118 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-11-22 08:13:41,118 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /home/z/my-project/hw05/results/soak/21127003_Soak_20261122.jtl
+2026-11-22 08:13:41,118 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/z/my-project/tools/apache-jmeter-5.6.3/bin/reportgenerator.properties
+2026-11-22 08:13:41,118 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-11-22 08:13:41,121 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-11-22 08:13:41,122 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-11-22 08:13:41,122 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-11-22 08:13:41,122 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-11-22 08:13:41,123 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-11-22 08:13:41,123 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-11-22 08:13:41,123 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-11-22 08:13:41,123 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-11-22 08:13:41,123 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-11-22 08:13:41,129 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,129 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,130 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,130 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,130 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,131 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,131 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,131 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-22 08:13:41,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-22 08:13:41,133 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-11-22 08:13:41,133 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-11-22 08:13:41,133 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-22 08:13:41,134 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-11-22 08:13:41,134 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-11-22 08:13:41,168 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-22 08:13:41,170 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-22 08:13:41,170 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-22 08:13:41,174 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-22 08:13:41,174 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-22 08:13:41,267 INFO o.a.j.JMeter: Running test (1795335221267)
+2026-11-22 08:13:41,301 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Soak_180VU_dur900
+2026-11-22 08:13:41,301 INFO o.a.j.e.StandardJMeterEngine: Starting 180 threads for group Soak_180VU_dur900.
+2026-11-22 08:13:41,301 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-22 08:13:41,301 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=180 ramp-up=30 delayedStart=false
+2026-11-22 08:13:41,321 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-22 08:13:41,321 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-22 08:13:41,322 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-22 08:13:41,322 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-22 08:13:41,376 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-1
+2026-11-22 08:13:41,377 INFO o.a.j.s.FileServer: Stored: data/products.csv
+2026-11-22 08:13:41,386 INFO o.a.j.s.FileServer: Stored: data/users.csv
+2026-11-22 08:13:41,559 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-2
+2026-11-22 08:13:41,571 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = c-6b028e74-140d72b5-4fb8bdb612d5
+2026-11-22 08:13:41,577 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-22 08:13:41,690 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-22 08:13:41,691 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-22 08:13:41,703 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-3
+2026-11-22 08:13:41,870 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-4
+2026-11-22 08:13:42,032 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-5
+2026-11-22 08:13:42,190 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-6
+2026-11-22 08:13:42,354 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-7
+2026-11-22 08:13:42,519 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-8
+2026-11-22 08:13:42,653 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-9
+2026-11-22 08:13:42,820 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-10
+2026-11-22 08:13:42,991 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-11
+2026-11-22 08:13:43,143 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-12
+2026-11-22 08:13:43,306 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-13
+2026-11-22 08:13:43,475 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-14
+2026-11-22 08:13:43,641 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-15
+2026-11-22 08:13:43,808 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-16
+2026-11-22 08:13:43,977 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-17
+2026-11-22 08:13:44,144 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-18
+2026-11-22 08:13:44,309 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-19
+2026-11-22 08:13:44,483 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-20
+2026-11-22 08:13:44,650 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-21
+2026-11-22 08:13:44,812 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-22
+2026-11-22 08:13:44,979 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-23
+2026-11-22 08:13:45,145 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-24
+2026-11-22 08:13:45,310 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-25
+2026-11-22 08:13:45,477 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-26
+2026-11-22 08:13:45,645 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-27
+2026-11-22 08:13:45,818 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-28
+2026-11-22 08:13:45,980 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-29
+2026-11-22 08:13:46,148 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-30
+2026-11-22 08:13:46,317 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-31
+2026-11-22 08:13:46,496 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-32
+2026-11-22 08:13:46,648 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-33
+2026-11-22 08:13:46,814 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-34
+2026-11-22 08:13:46,980 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-35
+2026-11-22 08:13:47,148 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-36
+2026-11-22 08:13:47,314 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-37
+2026-11-22 08:13:47,482 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-38
+2026-11-22 08:13:47,672 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-39
+2026-11-22 08:13:47,838 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-40
+2026-11-22 08:13:47,984 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-41
+2026-11-22 08:13:48,149 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-42
+2026-11-22 08:13:48,316 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-43
+2026-11-22 08:13:48,483 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-44
+2026-11-22 08:13:48,650 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-45
+2026-11-22 08:13:48,817 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-46
+2026-11-22 08:13:48,984 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-47
+2026-11-22 08:13:49,152 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-48
+2026-11-22 08:13:49,321 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-49
+2026-11-22 08:13:49,487 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-50
+2026-11-22 08:13:49,652 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-51
+2026-11-22 08:13:49,820 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-52
+2026-11-22 08:13:49,987 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-53
+2026-11-22 08:13:50,153 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-54
+2026-11-22 08:13:50,320 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-55
+2026-11-22 08:13:50,487 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-56
+2026-11-22 08:13:50,654 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-57
+2026-11-22 08:13:50,821 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-58
+2026-11-22 08:13:50,988 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-59
+2026-11-22 08:13:51,155 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-60
+2026-11-22 08:13:51,323 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-61
+2026-11-22 08:13:51,491 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-62
+2026-11-22 08:13:51,657 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-63
+2026-11-22 08:13:51,824 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-64
+2026-11-22 08:13:51,994 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-65
+2026-11-22 08:13:52,159 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-66
+2026-11-22 08:13:52,324 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-67
+2026-11-22 08:13:52,491 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-68
+2026-11-22 08:13:52,659 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-69
+2026-11-22 08:13:52,825 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-70
+2026-11-22 08:13:52,992 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-71
+2026-11-22 08:13:53,159 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-72
+2026-11-22 08:13:53,327 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-73
+2026-11-22 08:13:53,494 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-74
+2026-11-22 08:13:53,661 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-75
+2026-11-22 08:13:53,828 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-76
+2026-11-22 08:13:53,994 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-77
+2026-11-22 08:13:54,161 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-78
+2026-11-22 08:13:54,330 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-79
+2026-11-22 08:13:54,495 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-80
+2026-11-22 08:13:54,663 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-81
+2026-11-22 08:13:54,829 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-82
+2026-11-22 08:13:54,997 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-83
+2026-11-22 08:13:55,165 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-84
+2026-11-22 08:13:55,331 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-85
+2026-11-22 08:13:55,498 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-86
+2026-11-22 08:13:55,664 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-87
+2026-11-22 08:13:55,831 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-88
+2026-11-22 08:13:55,998 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-89
+2026-11-22 08:13:56,165 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-90
+2026-11-22 08:13:56,332 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-91
+2026-11-22 08:13:56,498 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-92
+2026-11-22 08:13:56,667 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-93
+2026-11-22 08:13:56,835 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-94
+2026-11-22 08:13:57,001 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-95
+2026-11-22 08:13:57,168 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-96
+2026-11-22 08:13:57,334 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-97
+2026-11-22 08:13:57,501 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-98
+2026-11-22 08:13:57,668 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-99
+2026-11-22 08:13:57,835 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-100
+2026-11-22 08:13:58,003 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-101
+2026-11-22 08:13:58,169 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-102
+2026-11-22 08:13:58,335 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-103
+2026-11-22 08:13:58,503 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-104
+2026-11-22 08:13:58,671 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-105
+2026-11-22 08:13:58,837 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-106
+2026-11-22 08:13:59,005 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-107
+2026-11-22 08:13:59,171 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-108
+2026-11-22 08:13:59,338 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-109
+2026-11-22 08:13:59,505 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-110
+2026-11-22 08:13:59,672 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-111
+2026-11-22 08:13:59,839 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-112
+2026-11-22 08:14:00,002 INFO o.a.j.r.Summariser: summary +   9128 in 00:00:19 =  487.3/s Avg:     1 Min:     0 Max:    49 Err:     0 (0.00%) Active: 112 Started: 112 Finished: 0
+2026-11-22 08:14:00,006 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-113
+2026-11-22 08:14:00,173 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-114
+2026-11-22 08:14:00,340 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-115
+2026-11-22 08:14:00,507 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-116
+2026-11-22 08:14:00,673 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-117
+2026-11-22 08:14:00,841 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-118
+2026-11-22 08:14:01,009 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-119
+2026-11-22 08:14:01,174 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-120
+2026-11-22 08:14:01,342 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-121
+2026-11-22 08:14:01,509 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-122
+2026-11-22 08:14:01,675 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-123
+2026-11-22 08:14:01,857 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-124
+2026-11-22 08:14:02,013 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-125
+2026-11-22 08:14:02,179 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-126
+2026-11-22 08:14:02,347 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-127
+2026-11-22 08:14:02,513 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-128
+2026-11-22 08:14:02,679 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-129
+2026-11-22 08:14:02,845 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-130
+2026-11-22 08:14:03,013 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-131
+2026-11-22 08:14:03,179 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-132
+2026-11-22 08:14:03,345 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-133
+2026-11-22 08:14:03,513 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-134
+2026-11-22 08:14:03,680 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-135
+2026-11-22 08:14:03,857 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-136
+2026-11-22 08:14:04,014 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-137
+2026-11-22 08:14:04,181 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-138
+2026-11-22 08:14:04,381 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-139
+2026-11-22 08:14:04,553 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-140
+2026-11-22 08:14:04,682 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-141
+2026-11-22 08:14:04,854 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-142
+2026-11-22 08:14:05,020 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-143
+2026-11-22 08:14:05,187 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-144
+2026-11-22 08:14:05,356 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-145
+2026-11-22 08:14:05,523 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-146
+2026-11-22 08:14:05,689 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-147
+2026-11-22 08:14:05,857 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-148
+2026-11-22 08:14:06,018 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-149
+2026-11-22 08:14:06,211 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-150
+2026-11-22 08:14:06,357 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-151
+2026-11-22 08:14:06,525 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-152
+2026-11-22 08:14:06,711 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-153
+2026-11-22 08:14:06,877 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-154
+2026-11-22 08:14:07,023 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-155
+2026-11-22 08:14:07,189 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-156
+2026-11-22 08:14:07,361 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-157
+2026-11-22 08:14:07,529 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-158
+2026-11-22 08:14:07,695 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-159
+2026-11-22 08:14:07,860 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-160
+2026-11-22 08:14:08,025 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-161
+2026-11-22 08:14:08,192 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-162
+2026-11-22 08:14:08,355 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-163
+2026-11-22 08:14:08,524 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-164
+2026-11-22 08:14:08,690 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-165
+2026-11-22 08:14:08,856 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-166
+2026-11-22 08:14:09,025 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-167
+2026-11-22 08:14:09,191 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-168
+2026-11-22 08:14:09,357 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-169
+2026-11-22 08:14:09,525 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-170
+2026-11-22 08:14:09,692 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-171
+2026-11-22 08:14:09,858 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-172
+2026-11-22 08:14:10,025 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-173
+2026-11-22 08:14:10,193 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-174
+2026-11-22 08:14:10,361 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-175
+2026-11-22 08:14:10,527 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-176
+2026-11-22 08:14:10,695 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-177
+2026-11-22 08:14:10,861 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-178
+2026-11-22 08:14:11,028 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-179
+2026-11-22 08:14:11,197 INFO o.a.j.t.JMeterThread: Thread started: Soak_180VU_dur900 1-180
+2026-11-22 08:14:30,000 INFO o.a.j.r.Summariser: summary +  42791 in 00:00:30 = 1426.4/s Avg:     0 Min:     0 Max:    34 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:14:30,001 INFO o.a.j.r.Summariser: summary =  51919 in 00:00:49 = 1065.4/s Avg:     0 Min:     0 Max:    49 Err:     0 (0.00%)
+2026-11-22 08:15:00,000 INFO o.a.j.r.Summariser: summary +  46147 in 00:00:30 = 1538.2/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:15:00,001 INFO o.a.j.r.Summariser: summary =  98066 in 00:01:19 = 1245.6/s Avg:     0 Min:     0 Max:    49 Err:     0 (0.00%)
+2026-11-22 08:15:30,000 INFO o.a.j.r.Summariser: summary +  45758 in 00:00:30 = 1525.3/s Avg:     1 Min:     0 Max:    51 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:15:30,000 INFO o.a.j.r.Summariser: summary = 143824 in 00:01:49 = 1322.7/s Avg:     0 Min:     0 Max:    51 Err:     0 (0.00%)
+2026-11-22 08:16:00,001 INFO o.a.j.r.Summariser: summary +  45830 in 00:00:30 = 1527.7/s Avg:     1 Min:     0 Max:    53 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:16:00,001 INFO o.a.j.r.Summariser: summary = 189654 in 00:02:19 = 1367.0/s Avg:     1 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:16:30,001 INFO o.a.j.r.Summariser: summary +  46144 in 00:00:30 = 1538.1/s Avg:     0 Min:     0 Max:    33 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:16:30,002 INFO o.a.j.r.Summariser: summary = 235798 in 00:02:49 = 1397.5/s Avg:     0 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:17:00,001 INFO o.a.j.r.Summariser: summary +  46163 in 00:00:30 = 1538.8/s Avg:     1 Min:     0 Max:    35 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:17:00,001 INFO o.a.j.r.Summariser: summary = 281961 in 00:03:19 = 1418.8/s Avg:     1 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:17:30,002 INFO o.a.j.r.Summariser: summary +  46092 in 00:00:30 = 1536.4/s Avg:     0 Min:     0 Max:    23 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:17:30,002 INFO o.a.j.r.Summariser: summary = 328053 in 00:03:49 = 1434.2/s Avg:     0 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:18:00,000 INFO o.a.j.r.Summariser: summary +  46146 in 00:00:30 = 1538.3/s Avg:     0 Min:     0 Max:    31 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:18:00,000 INFO o.a.j.r.Summariser: summary = 374199 in 00:04:19 = 1446.3/s Avg:     0 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:18:30,000 INFO o.a.j.r.Summariser: summary +  46269 in 00:00:30 = 1542.3/s Avg:     0 Min:     0 Max:    35 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:18:30,001 INFO o.a.j.r.Summariser: summary = 420468 in 00:04:49 = 1456.3/s Avg:     0 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:19:00,000 INFO o.a.j.r.Summariser: summary +  45977 in 00:00:30 = 1532.6/s Avg:     0 Min:     0 Max:    29 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:19:00,000 INFO o.a.j.r.Summariser: summary = 466445 in 00:05:19 = 1463.4/s Avg:     0 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:19:30,000 INFO o.a.j.r.Summariser: summary +  46277 in 00:00:30 = 1542.6/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:19:30,001 INFO o.a.j.r.Summariser: summary = 512722 in 00:05:49 = 1470.2/s Avg:     0 Min:     0 Max:    53 Err:     0 (0.00%)
+2026-11-22 08:20:00,000 INFO o.a.j.r.Summariser: summary +  46012 in 00:00:30 = 1533.7/s Avg:     0 Min:     0 Max:    74 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:20:00,000 INFO o.a.j.r.Summariser: summary = 558734 in 00:06:19 = 1475.3/s Avg:     0 Min:     0 Max:    74 Err:     0 (0.00%)
+2026-11-22 08:20:30,001 INFO o.a.j.r.Summariser: summary +  45997 in 00:00:30 = 1533.2/s Avg:     1 Min:     0 Max:    96 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:20:30,001 INFO o.a.j.r.Summariser: summary = 604731 in 00:06:49 = 1479.5/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:21:00,000 INFO o.a.j.r.Summariser: summary +  46023 in 00:00:30 = 1534.1/s Avg:     0 Min:     0 Max:    42 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:21:00,000 INFO o.a.j.r.Summariser: summary = 650754 in 00:07:19 = 1483.3/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:21:30,003 INFO o.a.j.r.Summariser: summary +  46210 in 00:00:30 = 1540.2/s Avg:     0 Min:     0 Max:    20 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:21:30,003 INFO o.a.j.r.Summariser: summary = 696964 in 00:07:49 = 1486.9/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:22:00,000 INFO o.a.j.r.Summariser: summary +  46107 in 00:00:30 = 1537.0/s Avg:     0 Min:     0 Max:    25 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:22:00,000 INFO o.a.j.r.Summariser: summary = 743071 in 00:08:19 = 1489.9/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:22:30,001 INFO o.a.j.r.Summariser: summary +  46032 in 00:00:30 = 1534.3/s Avg:     1 Min:     0 Max:    88 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:22:30,001 INFO o.a.j.r.Summariser: summary = 789103 in 00:08:49 = 1492.4/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:23:00,001 INFO o.a.j.r.Summariser: summary +  46169 in 00:00:30 = 1539.0/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:23:00,001 INFO o.a.j.r.Summariser: summary = 835272 in 00:09:19 = 1494.9/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:23:30,000 INFO o.a.j.r.Summariser: summary +  46153 in 00:00:30 = 1538.4/s Avg:     0 Min:     0 Max:    51 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:23:30,001 INFO o.a.j.r.Summariser: summary = 881425 in 00:09:49 = 1497.2/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:24:00,000 INFO o.a.j.r.Summariser: summary +  45948 in 00:00:30 = 1531.6/s Avg:     0 Min:     0 Max:    30 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:24:00,000 INFO o.a.j.r.Summariser: summary = 927373 in 00:10:19 = 1498.8/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:24:30,000 INFO o.a.j.r.Summariser: summary +  45917 in 00:00:30 = 1530.6/s Avg:     0 Min:     0 Max:    27 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:24:30,001 INFO o.a.j.r.Summariser: summary = 973290 in 00:10:49 = 1500.3/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:25:00,001 INFO o.a.j.r.Summariser: summary +  46103 in 00:00:30 = 1536.7/s Avg:     0 Min:     0 Max:    58 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:25:00,002 INFO o.a.j.r.Summariser: summary = 1019393 in 00:11:19 = 1501.9/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:25:30,000 INFO o.a.j.r.Summariser: summary +  46146 in 00:00:30 = 1538.3/s Avg:     0 Min:     0 Max:    27 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:25:30,000 INFO o.a.j.r.Summariser: summary = 1065539 in 00:11:49 = 1503.4/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:26:00,001 INFO o.a.j.r.Summariser: summary +  46194 in 00:00:30 = 1539.8/s Avg:     0 Min:     0 Max:    26 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:26:00,001 INFO o.a.j.r.Summariser: summary = 1111733 in 00:12:19 = 1504.9/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:26:30,000 INFO o.a.j.r.Summariser: summary +  45919 in 00:00:30 = 1530.6/s Avg:     0 Min:     0 Max:    65 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:26:30,001 INFO o.a.j.r.Summariser: summary = 1157652 in 00:12:49 = 1505.9/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:27:00,001 INFO o.a.j.r.Summariser: summary +  46158 in 00:00:30 = 1538.5/s Avg:     0 Min:     0 Max:    29 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:27:00,002 INFO o.a.j.r.Summariser: summary = 1203810 in 00:13:19 = 1507.1/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:27:30,000 INFO o.a.j.r.Summariser: summary +  45854 in 00:00:30 = 1528.5/s Avg:     1 Min:     0 Max:    60 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:27:30,000 INFO o.a.j.r.Summariser: summary = 1249664 in 00:13:49 = 1507.9/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:28:00,000 INFO o.a.j.r.Summariser: summary +  46011 in 00:00:30 = 1533.7/s Avg:     0 Min:     0 Max:    24 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:28:00,000 INFO o.a.j.r.Summariser: summary = 1295675 in 00:14:19 = 1508.8/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:28:30,000 INFO o.a.j.r.Summariser: summary +  46052 in 00:00:30 = 1535.1/s Avg:     0 Min:     0 Max:    29 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2026-11-22 08:28:30,001 INFO o.a.j.r.Summariser: summary = 1341727 in 00:14:49 = 1509.7/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:28:41,054 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-6
+2026-11-22 08:28:41,125 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-40
+2026-11-22 08:28:41,167 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-26
+2026-11-22 08:28:41,176 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-34
+2026-11-22 08:28:41,185 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-4
+2026-11-22 08:28:41,209 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-3
+2026-11-22 08:28:41,218 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-10
+2026-11-22 08:28:41,227 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-59
+2026-11-22 08:28:41,243 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-2
+2026-11-22 08:28:41,244 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-27
+2026-11-22 08:28:41,252 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-16
+2026-11-22 08:28:41,256 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-52
+2026-11-22 08:28:41,267 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-1
+2026-11-22 08:28:41,274 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-22
+2026-11-22 08:28:41,277 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-80
+2026-11-22 08:28:41,278 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-120
+2026-11-22 08:28:41,281 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-21
+2026-11-22 08:28:41,282 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-46
+2026-11-22 08:28:41,288 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-57
+2026-11-22 08:28:41,295 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-8
+2026-11-22 08:28:41,310 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-38
+2026-11-22 08:28:41,311 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-49
+2026-11-22 08:28:41,312 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-15
+2026-11-22 08:28:41,312 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-18
+2026-11-22 08:28:41,313 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-117
+2026-11-22 08:28:41,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Soak_180VU_dur900 1-5
+2026-11-22 08:28:41,315 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-5
+2026-11-22 08:28:41,317 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-148
+2026-11-22 08:28:41,319 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-131
+2026-11-22 08:28:41,322 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-43
+2026-11-22 08:28:41,323 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-7
+2026-11-22 08:28:41,324 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-45
+2026-11-22 08:28:41,326 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-47
+2026-11-22 08:28:41,327 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-136
+2026-11-22 08:28:41,338 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-17
+2026-11-22 08:28:41,340 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-122
+2026-11-22 08:28:41,340 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-35
+2026-11-22 08:28:41,341 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-23
+2026-11-22 08:28:41,342 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-30
+2026-11-22 08:28:41,345 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-124
+2026-11-22 08:28:41,348 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-84
+2026-11-22 08:28:41,350 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-71
+2026-11-22 08:28:41,352 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-11
+2026-11-22 08:28:41,353 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-65
+2026-11-22 08:28:41,354 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-132
+2026-11-22 08:28:41,355 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-63
+2026-11-22 08:28:41,355 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-24
+2026-11-22 08:28:41,356 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-96
+2026-11-22 08:28:41,357 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-25
+2026-11-22 08:28:41,357 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-12
+2026-11-22 08:28:41,358 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-19
+2026-11-22 08:28:41,360 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-33
+2026-11-22 08:28:41,360 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-9
+2026-11-22 08:28:41,364 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-13
+2026-11-22 08:28:41,365 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-60
+2026-11-22 08:28:41,368 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-31
+2026-11-22 08:28:41,368 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-48
+2026-11-22 08:28:41,369 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-68
+2026-11-22 08:28:41,372 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-67
+2026-11-22 08:28:41,375 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-20
+2026-11-22 08:28:41,376 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-97
+2026-11-22 08:28:41,377 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-89
+2026-11-22 08:28:41,377 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-29
+2026-11-22 08:28:41,381 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-107
+2026-11-22 08:28:41,381 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-64
+2026-11-22 08:28:41,382 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-66
+2026-11-22 08:28:41,383 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-32
+2026-11-22 08:28:41,385 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-95
+2026-11-22 08:28:41,386 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-81
+2026-11-22 08:28:41,387 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-75
+2026-11-22 08:28:41,388 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Soak_180VU_dur900 1-14
+2026-11-22 08:28:41,388 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-14
+2026-11-22 08:28:41,390 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-77
+2026-11-22 08:28:41,391 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-70
+2026-11-22 08:28:41,392 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-88
+2026-11-22 08:28:41,393 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-90
+2026-11-22 08:28:41,395 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-82
+2026-11-22 08:28:41,395 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-79
+2026-11-22 08:28:41,397 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-41
+2026-11-22 08:28:41,397 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-62
+2026-11-22 08:28:41,398 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-51
+2026-11-22 08:28:41,399 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-28
+2026-11-22 08:28:41,400 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-83
+2026-11-22 08:28:41,401 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-87
+2026-11-22 08:28:41,402 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-73
+2026-11-22 08:28:41,402 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-69
+2026-11-22 08:28:41,403 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-119
+2026-11-22 08:28:41,404 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-139
+2026-11-22 08:28:41,405 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-144
+2026-11-22 08:28:41,408 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-72
+2026-11-22 08:28:41,410 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-118
+2026-11-22 08:28:41,411 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-36
+2026-11-22 08:28:41,413 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-106
+2026-11-22 08:28:41,419 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-130
+2026-11-22 08:28:41,422 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-128
+2026-11-22 08:28:41,422 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-39
+2026-11-22 08:28:41,424 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-104
+2026-11-22 08:28:41,425 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-37
+2026-11-22 08:28:41,432 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-44
+2026-11-22 08:28:41,433 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-94
+2026-11-22 08:28:41,434 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-74
+2026-11-22 08:28:41,436 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-58
+2026-11-22 08:28:41,436 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-55
+2026-11-22 08:28:41,438 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-105
+2026-11-22 08:28:41,439 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-109
+2026-11-22 08:28:41,440 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-127
+2026-11-22 08:28:41,445 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-116
+2026-11-22 08:28:41,449 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-42
+2026-11-22 08:28:41,449 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-137
+2026-11-22 08:28:41,450 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-92
+2026-11-22 08:28:41,451 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-146
+2026-11-22 08:28:41,451 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-56
+2026-11-22 08:28:41,454 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-54
+2026-11-22 08:28:41,458 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-50
+2026-11-22 08:28:41,458 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-111
+2026-11-22 08:28:41,458 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-93
+2026-11-22 08:28:41,459 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-78
+2026-11-22 08:28:41,460 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-103
+2026-11-22 08:28:41,461 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-53
+2026-11-22 08:28:41,462 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-76
+2026-11-22 08:28:41,464 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-61
+2026-11-22 08:28:41,467 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-113
+2026-11-22 08:28:41,468 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-98
+2026-11-22 08:28:41,469 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-150
+2026-11-22 08:28:41,475 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-170
+2026-11-22 08:28:41,475 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-165
+2026-11-22 08:28:41,477 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-99
+2026-11-22 08:28:41,478 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-168
+2026-11-22 08:28:41,481 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-85
+2026-11-22 08:28:41,486 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-135
+2026-11-22 08:28:41,488 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-134
+2026-11-22 08:28:41,490 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-100
+2026-11-22 08:28:41,491 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-101
+2026-11-22 08:28:41,491 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-129
+2026-11-22 08:28:41,492 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-110
+2026-11-22 08:28:41,493 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-91
+2026-11-22 08:28:41,493 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-86
+2026-11-22 08:28:41,494 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-121
+2026-11-22 08:28:41,494 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-140
+2026-11-22 08:28:41,495 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-108
+2026-11-22 08:28:41,498 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-138
+2026-11-22 08:28:41,501 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-112
+2026-11-22 08:28:41,503 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-133
+2026-11-22 08:28:41,504 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Soak_180VU_dur900 1-102
+2026-11-22 08:28:41,504 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-102
+2026-11-22 08:28:41,505 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-158
+2026-11-22 08:28:41,507 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-125
+2026-11-22 08:28:41,507 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-123
+2026-11-22 08:28:41,508 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-126
+2026-11-22 08:28:41,508 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-115
+2026-11-22 08:28:41,508 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-114
+2026-11-22 08:28:41,526 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-177
+2026-11-22 08:28:41,532 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-151
+2026-11-22 08:28:41,546 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-145
+2026-11-22 08:28:41,547 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-155
+2026-11-22 08:28:41,547 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-149
+2026-11-22 08:28:41,550 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-141
+2026-11-22 08:28:41,550 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-143
+2026-11-22 08:28:41,552 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-161
+2026-11-22 08:28:41,552 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-142
+2026-11-22 08:28:41,553 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-174
+2026-11-22 08:28:41,555 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-164
+2026-11-22 08:28:41,571 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-152
+2026-11-22 08:28:41,572 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-175
+2026-11-22 08:28:41,573 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-160
+2026-11-22 08:28:41,574 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-147
+2026-11-22 08:28:41,582 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-172
+2026-11-22 08:28:41,585 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-166
+2026-11-22 08:28:41,590 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-153
+2026-11-22 08:28:41,608 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-169
+2026-11-22 08:28:41,612 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-154
+2026-11-22 08:28:41,612 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-163
+2026-11-22 08:28:41,618 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-180
+2026-11-22 08:28:41,622 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-157
+2026-11-22 08:28:41,625 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-171
+2026-11-22 08:28:41,629 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-179
+2026-11-22 08:28:41,639 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-156
+2026-11-22 08:28:41,644 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-162
+2026-11-22 08:28:41,662 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-159
+2026-11-22 08:28:41,662 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-167
+2026-11-22 08:28:41,670 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-176
+2026-11-22 08:28:41,682 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-178
+2026-11-22 08:28:41,683 INFO o.a.j.t.JMeterThread: Thread finished: Soak_180VU_dur900 1-173
+2026-11-22 08:28:41,683 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-22 08:28:41,683 INFO o.a.j.s.FileServer: Close: data/products.csv
+2026-11-22 08:28:41,683 INFO o.a.j.s.FileServer: Close: data/users.csv
+2026-11-22 08:28:41,683 INFO o.a.j.r.Summariser: summary +  17509 in 00:00:12 = 1498.7/s Avg:     0 Min:     0 Max:    23 Err:     0 (0.00%) Active: 0 Started: 180 Finished: 180
+2026-11-22 08:28:41,684 INFO o.a.j.r.Summariser: summary = 1359236 in 00:15:00 = 1509.6/s Avg:     0 Min:     0 Max:    96 Err:     0 (0.00%)
+2026-11-22 08:28:41,684 INFO o.a.j.JMeter: Generating Dashboard
+2026-11-22 08:28:41,684 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-11-22 08:28:41,693 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-11-22 08:28:57,726 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-11-22 08:28:57,726 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-11-22 08:28:57,728 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-11-22 08:28:57,728 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-11-22 08:28:57,744 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-11-22 08:28:57,746 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-11-22 08:28:57,746 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-11-22 08:28:57,746 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-11-22 08:29:04,625 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-11-22 08:29:04,651 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-11-22 08:29:04,651 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-11-22 08:29:04,651 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-11-22 08:29:11,707 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-11-22 08:29:11,720 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 9514652 samples
+2026-11-22 08:29:11,720 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-11-22 08:29:11,720 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-11-22 08:29:11,720 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-11-22 08:29:11,720 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-11-22 08:29:11,720 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-11-22 08:29:11,721 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-11-22 08:29:11,722 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-11-22 08:29:11,757 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-11-22 08:29:11,757 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-11-22 08:29:11,758 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-11-22 08:29:11,758 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 24465705 samples
+2026-11-22 08:29:11,758 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 4893141 samples
+2026-11-22 08:29:11,758 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1631047 samples
+2026-11-22 08:29:11,758 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1631047 samples produced in 30s 46 ms on channel 0
+2026-11-22 08:29:11,758 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-11-22 08:29:11,881 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-11-22 08:29:11,882 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-11-22 08:29:11,882 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-11-22 08:29:11,882 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-11-22 08:29:11,882 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/z/my-project/hw05/results/soak/html/statistics.json
+2026-11-22 08:29:11,970 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-11-22 08:29:11,979 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/z/my-project/hw05/results/soak/html
+2026-11-22 08:29:12,196 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/z/my-project/hw05/results/soak/html, creating folder structure
+2026-11-22 08:29:12,203 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/home/z/my-project/tools/apache-jmeter-5.6.3/bin/report-template' to '/home/z/my-project/hw05/results/soak/html', got message: /home/z/my-project/hw05/results/soak/html, found non empty folder with following content [/home/z/my-project/hw05/results/soak/html/statistics.json], will be ignored
+2026-11-22 08:29:12,427 INFO o.a.j.JMeter: Dashboard generated
